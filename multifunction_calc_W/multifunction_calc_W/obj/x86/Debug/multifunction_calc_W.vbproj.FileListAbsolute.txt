@@ -1,0 +1,21 @@
+C:\Users\USER\AppData\Local\Temporary Projects\multifunction_calc_W\bin\Debug\multifunction_calc_W.exe
+C:\Users\USER\AppData\Local\Temporary Projects\multifunction_calc_W\bin\Debug\multifunction_calc_W.pdb
+C:\Users\USER\AppData\Local\Temporary Projects\multifunction_calc_W\bin\Debug\multifunction_calc_W.xml
+C:\Users\USER\AppData\Local\Temporary Projects\multifunction_calc_W\obj\x86\Debug\multifunction_calc_W.Form1.resources
+C:\Users\USER\AppData\Local\Temporary Projects\multifunction_calc_W\obj\x86\Debug\multifunction_calc_W.Resources.resources
+C:\Users\USER\AppData\Local\Temporary Projects\multifunction_calc_W\obj\x86\Debug\multifunction_calc_W.vbproj.GenerateResource.Cache
+C:\Users\USER\AppData\Local\Temporary Projects\multifunction_calc_W\obj\x86\Debug\multifunction_calc_W.exe
+C:\Users\USER\AppData\Local\Temporary Projects\multifunction_calc_W\obj\x86\Debug\multifunction_calc_W.xml
+C:\Users\USER\AppData\Local\Temporary Projects\multifunction_calc_W\obj\x86\Debug\multifunction_calc_W.pdb
+C:\Users\USER\documents\visual studio 2010\Projects\multifunction_calc_W\multifunction_calc_W\obj\x86\Debug\multifunction_calc_W.exe
+C:\Users\USER\documents\visual studio 2010\Projects\multifunction_calc_W\multifunction_calc_W\obj\x86\Debug\multifunction_calc_W.xml
+C:\Users\USER\documents\visual studio 2010\Projects\multifunction_calc_W\multifunction_calc_W\obj\x86\Debug\multifunction_calc_W.pdb
+C:\Users\USER\documents\visual studio 2010\Projects\multifunction_calc_W\multifunction_calc_W\bin\Debug\multifunction_calc_W.exe
+C:\Users\USER\documents\visual studio 2010\Projects\multifunction_calc_W\multifunction_calc_W\bin\Debug\multifunction_calc_W.pdb
+C:\Users\USER\documents\visual studio 2010\Projects\multifunction_calc_W\multifunction_calc_W\bin\Debug\multifunction_calc_W.xml
+C:\Users\USER\documents\visual studio 2010\Projects\multifunction_calc_W\multifunction_calc_W\obj\x86\Debug\multifunction_calc_W.Form1.resources
+C:\Users\USER\documents\visual studio 2010\Projects\multifunction_calc_W\multifunction_calc_W\obj\x86\Debug\multifunction_calc_W.Resources.resources
+C:\Users\USER\documents\visual studio 2010\Projects\multifunction_calc_W\multifunction_calc_W\obj\x86\Debug\multifunction_calc_W.vbproj.GenerateResource.Cache
+T:\Projects\Windows Projects\multifunction_calc_W\multifunction_calc_W\obj\x86\Debug\multifunction_calc_W.exe
+T:\Projects\Windows Projects\multifunction_calc_W\multifunction_calc_W\obj\x86\Debug\multifunction_calc_W.xml
+T:\Projects\Windows Projects\multifunction_calc_W\multifunction_calc_W\obj\x86\Debug\multifunction_calc_W.pdb

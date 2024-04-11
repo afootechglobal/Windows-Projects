@@ -1,0 +1,22 @@
+C:\Users\USER\AppData\Local\Temporary Projects\auto_system_W\bin\Debug\auto_system_W.exe
+C:\Users\USER\AppData\Local\Temporary Projects\auto_system_W\bin\Debug\auto_system_W.pdb
+C:\Users\USER\AppData\Local\Temporary Projects\auto_system_W\bin\Debug\auto_system_W.xml
+C:\Users\USER\AppData\Local\Temporary Projects\auto_system_W\obj\x86\Debug\auto_system_W.Form1.resources
+C:\Users\USER\AppData\Local\Temporary Projects\auto_system_W\obj\x86\Debug\auto_system_W.Resources.resources
+C:\Users\USER\AppData\Local\Temporary Projects\auto_system_W\obj\x86\Debug\auto_system_W.vbproj.GenerateResource.Cache
+C:\Users\USER\AppData\Local\Temporary Projects\auto_system_W\obj\x86\Debug\auto_system_W.exe
+C:\Users\USER\AppData\Local\Temporary Projects\auto_system_W\obj\x86\Debug\auto_system_W.xml
+C:\Users\USER\AppData\Local\Temporary Projects\auto_system_W\obj\x86\Debug\auto_system_W.pdb
+C:\Users\USER\documents\visual studio 2010\Projects\auto_system_W\auto_system_W\obj\x86\Debug\auto_system_W.exe
+C:\Users\USER\documents\visual studio 2010\Projects\auto_system_W\auto_system_W\obj\x86\Debug\auto_system_W.xml
+C:\Users\USER\documents\visual studio 2010\Projects\auto_system_W\auto_system_W\obj\x86\Debug\auto_system_W.pdb
+C:\Users\USER\documents\visual studio 2010\Projects\auto_system_W\auto_system_W\bin\Debug\auto_system_W.exe
+C:\Users\USER\documents\visual studio 2010\Projects\auto_system_W\auto_system_W\bin\Debug\auto_system_W.pdb
+C:\Users\USER\documents\visual studio 2010\Projects\auto_system_W\auto_system_W\bin\Debug\auto_system_W.xml
+C:\Users\USER\documents\visual studio 2010\Projects\auto_system_W\auto_system_W\obj\x86\Debug\auto_system_W.Form1.resources
+C:\Users\USER\documents\visual studio 2010\Projects\auto_system_W\auto_system_W\obj\x86\Debug\auto_system_W.Resources.resources
+C:\Users\USER\documents\visual studio 2010\Projects\auto_system_W\auto_system_W\obj\x86\Debug\auto_system_W.vbproj.GenerateResource.Cache
+C:\Users\USER\Documents\Visual Studio 2010\Projects\auto_system_W\auto_system_W\obj\x86\Debug\auto_system_W.vbprojResolveAssemblyReference.cache
+T:\Projects\Windows Projects\auto_system_W\auto_system_W\obj\x86\Debug\auto_system_W.exe
+T:\Projects\Windows Projects\auto_system_W\auto_system_W\obj\x86\Debug\auto_system_W.xml
+T:\Projects\Windows Projects\auto_system_W\auto_system_W\obj\x86\Debug\auto_system_W.pdb

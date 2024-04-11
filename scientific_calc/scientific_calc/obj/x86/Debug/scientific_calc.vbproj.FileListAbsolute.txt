@@ -1,0 +1,21 @@
+C:\Users\USER\AppData\Local\Temporary Projects\scientific_calc\bin\Debug\scientific_calc.exe
+C:\Users\USER\AppData\Local\Temporary Projects\scientific_calc\bin\Debug\scientific_calc.pdb
+C:\Users\USER\AppData\Local\Temporary Projects\scientific_calc\bin\Debug\scientific_calc.xml
+C:\Users\USER\AppData\Local\Temporary Projects\scientific_calc\obj\x86\Debug\scientific_calc.Form1.resources
+C:\Users\USER\AppData\Local\Temporary Projects\scientific_calc\obj\x86\Debug\scientific_calc.Resources.resources
+C:\Users\USER\AppData\Local\Temporary Projects\scientific_calc\obj\x86\Debug\scientific_calc.vbproj.GenerateResource.Cache
+C:\Users\USER\AppData\Local\Temporary Projects\scientific_calc\obj\x86\Debug\scientific_calc.exe
+C:\Users\USER\AppData\Local\Temporary Projects\scientific_calc\obj\x86\Debug\scientific_calc.xml
+C:\Users\USER\AppData\Local\Temporary Projects\scientific_calc\obj\x86\Debug\scientific_calc.pdb
+C:\Users\USER\Documents\Visual Studio 2010\Projects\scientific_calc\scientific_calc\obj\x86\Debug\scientific_calc.exe
+C:\Users\USER\Documents\Visual Studio 2010\Projects\scientific_calc\scientific_calc\obj\x86\Debug\scientific_calc.xml
+C:\Users\USER\Documents\Visual Studio 2010\Projects\scientific_calc\scientific_calc\obj\x86\Debug\scientific_calc.pdb
+C:\Users\USER\Documents\Visual Studio 2010\Projects\scientific_calc\scientific_calc\bin\Debug\scientific_calc.exe
+C:\Users\USER\Documents\Visual Studio 2010\Projects\scientific_calc\scientific_calc\bin\Debug\scientific_calc.pdb
+C:\Users\USER\Documents\Visual Studio 2010\Projects\scientific_calc\scientific_calc\bin\Debug\scientific_calc.xml
+C:\Users\USER\Documents\Visual Studio 2010\Projects\scientific_calc\scientific_calc\obj\x86\Debug\scientific_calc.Form1.resources
+C:\Users\USER\Documents\Visual Studio 2010\Projects\scientific_calc\scientific_calc\obj\x86\Debug\scientific_calc.Resources.resources
+C:\Users\USER\Documents\Visual Studio 2010\Projects\scientific_calc\scientific_calc\obj\x86\Debug\scientific_calc.vbproj.GenerateResource.Cache
+E:\Projects\Windows Projects\scientific_calc\scientific_calc\obj\x86\Debug\scientific_calc.exe
+E:\Projects\Windows Projects\scientific_calc\scientific_calc\obj\x86\Debug\scientific_calc.xml
+E:\Projects\Windows Projects\scientific_calc\scientific_calc\obj\x86\Debug\scientific_calc.pdb

@@ -1,0 +1,36 @@
+C:\Users\USER\AppData\Local\Temporary Projects\afoo_tech_gp_W\bin\Debug\afoo_tech_gp_W.exe
+C:\Users\USER\AppData\Local\Temporary Projects\afoo_tech_gp_W\bin\Debug\afoo_tech_gp_W.pdb
+C:\Users\USER\AppData\Local\Temporary Projects\afoo_tech_gp_W\bin\Debug\afoo_tech_gp_W.xml
+C:\Users\USER\AppData\Local\Temporary Projects\afoo_tech_gp_W\obj\x86\Debug\afoo_tech_gp_W.Form1.resources
+C:\Users\USER\AppData\Local\Temporary Projects\afoo_tech_gp_W\obj\x86\Debug\afoo_tech_gp_W.Resources.resources
+C:\Users\USER\AppData\Local\Temporary Projects\afoo_tech_gp_W\obj\x86\Debug\afoo_tech_gp_W.vbproj.GenerateResource.Cache
+C:\Users\USER\AppData\Local\Temporary Projects\afoo_tech_gp_W\obj\x86\Debug\afoo_tech_gp_W.exe
+C:\Users\USER\AppData\Local\Temporary Projects\afoo_tech_gp_W\obj\x86\Debug\afoo_tech_gp_W.xml
+C:\Users\USER\AppData\Local\Temporary Projects\afoo_tech_gp_W\obj\x86\Debug\afoo_tech_gp_W.pdb
+C:\Users\USER\documents\visual studio 2010\Projects\afoo_tech_gp_W\afoo_tech_gp_W\obj\x86\Debug\afoo_tech_gp_W.exe
+C:\Users\USER\documents\visual studio 2010\Projects\afoo_tech_gp_W\afoo_tech_gp_W\obj\x86\Debug\afoo_tech_gp_W.xml
+C:\Users\USER\documents\visual studio 2010\Projects\afoo_tech_gp_W\afoo_tech_gp_W\obj\x86\Debug\afoo_tech_gp_W.pdb
+C:\Users\USER\documents\visual studio 2010\Projects\afoo_tech_gp_W\afoo_tech_gp_W\obj\x86\Debug\afoo_tech_gp_W.Form1.resources
+C:\Users\USER\documents\visual studio 2010\Projects\afoo_tech_gp_W\afoo_tech_gp_W\obj\x86\Debug\afoo_tech_gp_W.Resources.resources
+C:\Users\USER\documents\visual studio 2010\Projects\afoo_tech_gp_W\afoo_tech_gp_W\obj\x86\Debug\afoo_tech_gp_W.vbproj.GenerateResource.Cache
+C:\Users\USER\documents\visual studio 2010\Projects\afoo_tech_gp_W\afoo_tech_gp_W\bin\Debug\afoo_tech_gp_W.exe
+C:\Users\USER\documents\visual studio 2010\Projects\afoo_tech_gp_W\afoo_tech_gp_W\bin\Debug\afoo_tech_gp_W.pdb
+C:\Users\USER\documents\visual studio 2010\Projects\afoo_tech_gp_W\afoo_tech_gp_W\bin\Debug\afoo_tech_gp_W.xml
+E:\Projects\Windows Projects\afoo_tech_gp_W\afoo_tech_gp_W\obj\x86\Debug\afoo_tech_gp_W.exe
+E:\Projects\Windows Projects\afoo_tech_gp_W\afoo_tech_gp_W\obj\x86\Debug\afoo_tech_gp_W.xml
+E:\Projects\Windows Projects\afoo_tech_gp_W\afoo_tech_gp_W\obj\x86\Debug\afoo_tech_gp_W.pdb
+E:\Projects\Windows Projects\afoo_tech_gp_W\afoo_tech_gp_W\bin\Debug\afoo_tech_gp_W.exe
+E:\Projects\Windows Projects\afoo_tech_gp_W\afoo_tech_gp_W\bin\Debug\afoo_tech_gp_W.pdb
+E:\Projects\Windows Projects\afoo_tech_gp_W\afoo_tech_gp_W\bin\Debug\afoo_tech_gp_W.xml
+E:\Projects\Windows Projects\afoo_tech_gp_W\afoo_tech_gp_W\obj\x86\Debug\afoo_tech_gp_W.Form1.resources
+E:\Projects\Windows Projects\afoo_tech_gp_W\afoo_tech_gp_W\obj\x86\Debug\afoo_tech_gp_W.Resources.resources
+E:\Projects\Windows Projects\afoo_tech_gp_W\afoo_tech_gp_W\obj\x86\Debug\afoo_tech_gp_W.vbproj.GenerateResource.Cache
+F:\Projects\Windows Projects\afoo_tech_gp_W\afoo_tech_gp_W\obj\x86\Debug\afoo_tech_gp_W.exe
+F:\Projects\Windows Projects\afoo_tech_gp_W\afoo_tech_gp_W\obj\x86\Debug\afoo_tech_gp_W.xml
+F:\Projects\Windows Projects\afoo_tech_gp_W\afoo_tech_gp_W\obj\x86\Debug\afoo_tech_gp_W.pdb
+F:\Projects\Windows Projects\afoo_tech_gp_W\afoo_tech_gp_W\bin\Debug\afoo_tech_gp_W.exe
+F:\Projects\Windows Projects\afoo_tech_gp_W\afoo_tech_gp_W\bin\Debug\afoo_tech_gp_W.pdb
+F:\Projects\Windows Projects\afoo_tech_gp_W\afoo_tech_gp_W\bin\Debug\afoo_tech_gp_W.xml
+F:\Projects\Windows Projects\afoo_tech_gp_W\afoo_tech_gp_W\obj\x86\Debug\afoo_tech_gp_W.Form1.resources
+F:\Projects\Windows Projects\afoo_tech_gp_W\afoo_tech_gp_W\obj\x86\Debug\afoo_tech_gp_W.Resources.resources
+F:\Projects\Windows Projects\afoo_tech_gp_W\afoo_tech_gp_W\obj\x86\Debug\afoo_tech_gp_W.vbproj.GenerateResource.Cache

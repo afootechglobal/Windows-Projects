@@ -1,0 +1,18 @@
+C:\Users\USER\AppData\Local\Temporary Projects\boy_law_cal_W\bin\Debug\boy_law_cal_W.exe
+C:\Users\USER\AppData\Local\Temporary Projects\boy_law_cal_W\bin\Debug\boy_law_cal_W.pdb
+C:\Users\USER\AppData\Local\Temporary Projects\boy_law_cal_W\bin\Debug\boy_law_cal_W.xml
+C:\Users\USER\AppData\Local\Temporary Projects\boy_law_cal_W\obj\x86\Debug\boy_law_cal_W.Form1.resources
+C:\Users\USER\AppData\Local\Temporary Projects\boy_law_cal_W\obj\x86\Debug\boy_law_cal_W.Resources.resources
+C:\Users\USER\AppData\Local\Temporary Projects\boy_law_cal_W\obj\x86\Debug\boy_law_cal_W.vbproj.GenerateResource.Cache
+C:\Users\USER\AppData\Local\Temporary Projects\boy_law_cal_W\obj\x86\Debug\boy_law_cal_W.exe
+C:\Users\USER\AppData\Local\Temporary Projects\boy_law_cal_W\obj\x86\Debug\boy_law_cal_W.xml
+C:\Users\USER\AppData\Local\Temporary Projects\boy_law_cal_W\obj\x86\Debug\boy_law_cal_W.pdb
+C:\Users\USER\Documents\Visual Studio 2010\Projects\boy_law_cal_W\boy_law_cal_W\obj\x86\Debug\boy_law_cal_W.exe
+C:\Users\USER\Documents\Visual Studio 2010\Projects\boy_law_cal_W\boy_law_cal_W\obj\x86\Debug\boy_law_cal_W.xml
+C:\Users\USER\Documents\Visual Studio 2010\Projects\boy_law_cal_W\boy_law_cal_W\obj\x86\Debug\boy_law_cal_W.pdb
+C:\Users\USER\Documents\Visual Studio 2010\Projects\boy_law_cal_W\boy_law_cal_W\bin\Debug\boy_law_cal_W.exe
+C:\Users\USER\Documents\Visual Studio 2010\Projects\boy_law_cal_W\boy_law_cal_W\bin\Debug\boy_law_cal_W.pdb
+C:\Users\USER\Documents\Visual Studio 2010\Projects\boy_law_cal_W\boy_law_cal_W\bin\Debug\boy_law_cal_W.xml
+C:\Users\USER\Documents\Visual Studio 2010\Projects\boy_law_cal_W\boy_law_cal_W\obj\x86\Debug\boy_law_cal_W.Form1.resources
+C:\Users\USER\Documents\Visual Studio 2010\Projects\boy_law_cal_W\boy_law_cal_W\obj\x86\Debug\boy_law_cal_W.Resources.resources
+C:\Users\USER\Documents\Visual Studio 2010\Projects\boy_law_cal_W\boy_law_cal_W\obj\x86\Debug\boy_law_cal_W.vbproj.GenerateResource.Cache
