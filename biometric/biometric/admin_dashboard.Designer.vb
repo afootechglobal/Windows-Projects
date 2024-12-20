@@ -36,6 +36,7 @@ Partial Class admin_dashboard
         Me.LabelDateTime = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.LogoutBtn = New System.Windows.Forms.Button()
+        Me.AttendanceBtn = New System.Windows.Forms.Button()
         Me.Guna2CustomGradientPanel1 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
         Me.Role_label = New System.Windows.Forms.Label()
         Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
@@ -43,12 +44,20 @@ Partial Class admin_dashboard
         Me.ContextMenuStrip2 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.ChangeYourPasswordToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.OvalShape1 = New Microsoft.VisualBasic.PowerPacks.OvalShape()
+        Me.ShapeContainer2 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
+        Me.ContextMenuStrip3 = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.ClockinToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AttendanceReportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.StaffProfile = New WindowsApplication1.CircleAvatar()
         Me.ContextMenuStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Guna2CustomGradientPanel1.SuspendLayout()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ContextMenuStrip2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.ContextMenuStrip3.SuspendLayout()
+        CType(Me.StaffProfile, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Timer1
@@ -61,15 +70,15 @@ Partial Class admin_dashboard
         Me.VerificationBtn.BackColor = System.Drawing.Color.Transparent
         Me.VerificationBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.VerificationBtn.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.VerificationBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(164, Byte), Integer), CType(CType(207, Byte), Integer), CType(CType(223, Byte), Integer))
+        Me.VerificationBtn.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveBorder
         Me.VerificationBtn.FlatAppearance.BorderSize = 0
-        Me.VerificationBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(164, Byte), Integer), CType(CType(207, Byte), Integer), CType(CType(223, Byte), Integer))
+        Me.VerificationBtn.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ActiveBorder
         Me.VerificationBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(164, Byte), Integer), CType(CType(207, Byte), Integer), CType(CType(223, Byte), Integer))
         Me.VerificationBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.VerificationBtn.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.VerificationBtn.Image = CType(resources.GetObject("VerificationBtn.Image"), System.Drawing.Image)
         Me.VerificationBtn.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.VerificationBtn.Location = New System.Drawing.Point(107, 0)
+        Me.VerificationBtn.Location = New System.Drawing.Point(100, 0)
         Me.VerificationBtn.Name = "VerificationBtn"
         Me.VerificationBtn.Size = New System.Drawing.Size(95, 68)
         Me.VerificationBtn.TabIndex = 2
@@ -82,15 +91,15 @@ Partial Class admin_dashboard
         Me.EnrollmentBtn.BackColor = System.Drawing.Color.Transparent
         Me.EnrollmentBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.EnrollmentBtn.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.EnrollmentBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(164, Byte), Integer), CType(CType(207, Byte), Integer), CType(CType(223, Byte), Integer))
+        Me.EnrollmentBtn.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveBorder
         Me.EnrollmentBtn.FlatAppearance.BorderSize = 0
-        Me.EnrollmentBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(164, Byte), Integer), CType(CType(207, Byte), Integer), CType(CType(223, Byte), Integer))
+        Me.EnrollmentBtn.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ActiveBorder
         Me.EnrollmentBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(164, Byte), Integer), CType(CType(207, Byte), Integer), CType(CType(223, Byte), Integer))
         Me.EnrollmentBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.EnrollmentBtn.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.EnrollmentBtn.Image = CType(resources.GetObject("EnrollmentBtn.Image"), System.Drawing.Image)
         Me.EnrollmentBtn.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.EnrollmentBtn.Location = New System.Drawing.Point(13, 0)
+        Me.EnrollmentBtn.Location = New System.Drawing.Point(5, 0)
         Me.EnrollmentBtn.Name = "EnrollmentBtn"
         Me.EnrollmentBtn.Size = New System.Drawing.Size(95, 68)
         Me.EnrollmentBtn.TabIndex = 0
@@ -104,15 +113,15 @@ Partial Class admin_dashboard
         Me.AdminBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.AdminBtn.ContextMenuStrip = Me.ContextMenuStrip1
         Me.AdminBtn.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.AdminBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(164, Byte), Integer), CType(CType(207, Byte), Integer), CType(CType(223, Byte), Integer))
+        Me.AdminBtn.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveBorder
         Me.AdminBtn.FlatAppearance.BorderSize = 0
-        Me.AdminBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(164, Byte), Integer), CType(CType(207, Byte), Integer), CType(CType(223, Byte), Integer))
+        Me.AdminBtn.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ActiveBorder
         Me.AdminBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(164, Byte), Integer), CType(CType(207, Byte), Integer), CType(CType(223, Byte), Integer))
         Me.AdminBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.AdminBtn.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AdminBtn.Image = CType(resources.GetObject("AdminBtn.Image"), System.Drawing.Image)
         Me.AdminBtn.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.AdminBtn.Location = New System.Drawing.Point(201, 0)
+        Me.AdminBtn.Location = New System.Drawing.Point(195, 0)
         Me.AdminBtn.Name = "AdminBtn"
         Me.AdminBtn.Size = New System.Drawing.Size(95, 68)
         Me.AdminBtn.TabIndex = 3
@@ -125,7 +134,7 @@ Partial Class admin_dashboard
         Me.ContextMenuStrip1.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RegisterNewStaffToolStripMenuItem, Me.ViewEditUsersRcordToolStripMenuItem, Me.ViewEditStaffRecordToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(228, 92)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(228, 70)
         '
         'RegisterNewStaffToolStripMenuItem
         '
@@ -150,15 +159,15 @@ Partial Class admin_dashboard
         Me.SettingsBtn.BackColor = System.Drawing.Color.Transparent
         Me.SettingsBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.SettingsBtn.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.SettingsBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(164, Byte), Integer), CType(CType(207, Byte), Integer), CType(CType(223, Byte), Integer))
+        Me.SettingsBtn.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveBorder
         Me.SettingsBtn.FlatAppearance.BorderSize = 0
-        Me.SettingsBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(164, Byte), Integer), CType(CType(207, Byte), Integer), CType(CType(223, Byte), Integer))
+        Me.SettingsBtn.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ActiveBorder
         Me.SettingsBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(164, Byte), Integer), CType(CType(207, Byte), Integer), CType(CType(223, Byte), Integer))
         Me.SettingsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.SettingsBtn.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SettingsBtn.Image = CType(resources.GetObject("SettingsBtn.Image"), System.Drawing.Image)
         Me.SettingsBtn.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.SettingsBtn.Location = New System.Drawing.Point(295, 0)
+        Me.SettingsBtn.Location = New System.Drawing.Point(384, 0)
         Me.SettingsBtn.Name = "SettingsBtn"
         Me.SettingsBtn.Size = New System.Drawing.Size(95, 68)
         Me.SettingsBtn.TabIndex = 4
@@ -172,7 +181,7 @@ Partial Class admin_dashboard
         Me.LabelDateTime.AutoSize = True
         Me.LabelDateTime.Font = New System.Drawing.Font("Arial Unicode MS", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelDateTime.ForeColor = System.Drawing.Color.DarkRed
-        Me.LabelDateTime.Location = New System.Drawing.Point(687, 28)
+        Me.LabelDateTime.Location = New System.Drawing.Point(779, 28)
         Me.LabelDateTime.Name = "LabelDateTime"
         Me.LabelDateTime.Size = New System.Drawing.Size(226, 15)
         Me.LabelDateTime.TabIndex = 5
@@ -181,8 +190,10 @@ Partial Class admin_dashboard
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Me.Panel1.Controls.Add(Me.LabelDateTime)
         Me.Panel1.Controls.Add(Me.LogoutBtn)
+        Me.Panel1.Controls.Add(Me.AttendanceBtn)
+        Me.Panel1.Controls.Add(Me.StaffProfile)
+        Me.Panel1.Controls.Add(Me.LabelDateTime)
         Me.Panel1.Controls.Add(Me.SettingsBtn)
         Me.Panel1.Controls.Add(Me.AdminBtn)
         Me.Panel1.Controls.Add(Me.EnrollmentBtn)
@@ -190,7 +201,7 @@ Partial Class admin_dashboard
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(922, 68)
+        Me.Panel1.Size = New System.Drawing.Size(1031, 68)
         Me.Panel1.TabIndex = 1
         '
         'LogoutBtn
@@ -198,21 +209,42 @@ Partial Class admin_dashboard
         Me.LogoutBtn.BackColor = System.Drawing.Color.Transparent
         Me.LogoutBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.LogoutBtn.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.LogoutBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(164, Byte), Integer), CType(CType(207, Byte), Integer), CType(CType(223, Byte), Integer))
+        Me.LogoutBtn.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveBorder
         Me.LogoutBtn.FlatAppearance.BorderSize = 0
-        Me.LogoutBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(164, Byte), Integer), CType(CType(207, Byte), Integer), CType(CType(223, Byte), Integer))
+        Me.LogoutBtn.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ActiveBorder
         Me.LogoutBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(164, Byte), Integer), CType(CType(207, Byte), Integer), CType(CType(223, Byte), Integer))
         Me.LogoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.LogoutBtn.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LogoutBtn.Image = CType(resources.GetObject("LogoutBtn.Image"), System.Drawing.Image)
         Me.LogoutBtn.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.LogoutBtn.Location = New System.Drawing.Point(389, 0)
+        Me.LogoutBtn.Location = New System.Drawing.Point(479, 0)
         Me.LogoutBtn.Name = "LogoutBtn"
         Me.LogoutBtn.Size = New System.Drawing.Size(95, 68)
         Me.LogoutBtn.TabIndex = 5
         Me.LogoutBtn.Text = "Logout"
         Me.LogoutBtn.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.LogoutBtn.UseVisualStyleBackColor = False
+        '
+        'AttendanceBtn
+        '
+        Me.AttendanceBtn.BackColor = System.Drawing.Color.Transparent
+        Me.AttendanceBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.AttendanceBtn.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.AttendanceBtn.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveBorder
+        Me.AttendanceBtn.FlatAppearance.BorderSize = 0
+        Me.AttendanceBtn.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ActiveBorder
+        Me.AttendanceBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(164, Byte), Integer), CType(CType(207, Byte), Integer), CType(CType(223, Byte), Integer))
+        Me.AttendanceBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.AttendanceBtn.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AttendanceBtn.Image = CType(resources.GetObject("AttendanceBtn.Image"), System.Drawing.Image)
+        Me.AttendanceBtn.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.AttendanceBtn.Location = New System.Drawing.Point(290, 0)
+        Me.AttendanceBtn.Name = "AttendanceBtn"
+        Me.AttendanceBtn.Size = New System.Drawing.Size(95, 68)
+        Me.AttendanceBtn.TabIndex = 6
+        Me.AttendanceBtn.Text = "Attendance"
+        Me.AttendanceBtn.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.AttendanceBtn.UseVisualStyleBackColor = False
         '
         'Guna2CustomGradientPanel1
         '
@@ -228,19 +260,19 @@ Partial Class admin_dashboard
         Me.Guna2CustomGradientPanel1.Location = New System.Drawing.Point(0, 538)
         Me.Guna2CustomGradientPanel1.Name = "Guna2CustomGradientPanel1"
         Me.Guna2CustomGradientPanel1.ShadowDecoration.Parent = Me.Guna2CustomGradientPanel1
-        Me.Guna2CustomGradientPanel1.Size = New System.Drawing.Size(922, 30)
+        Me.Guna2CustomGradientPanel1.Size = New System.Drawing.Size(1031, 30)
         Me.Guna2CustomGradientPanel1.TabIndex = 2
         '
         'Role_label
         '
         Me.Role_label.AutoSize = True
         Me.Role_label.BackColor = System.Drawing.Color.Transparent
-        Me.Role_label.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Role_label.Location = New System.Drawing.Point(127, 7)
+        Me.Role_label.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Role_label.ForeColor = System.Drawing.SystemColors.InactiveCaptionText
+        Me.Role_label.Location = New System.Drawing.Point(127, 9)
         Me.Role_label.Name = "Role_label"
-        Me.Role_label.Size = New System.Drawing.Size(47, 15)
+        Me.Role_label.Size = New System.Drawing.Size(0, 13)
         Me.Role_label.TabIndex = 3
-        Me.Role_label.Text = "Admin"
         '
         'Guna2PictureBox1
         '
@@ -287,20 +319,68 @@ Partial Class admin_dashboard
         Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(922, 568)
+        Me.PictureBox1.Size = New System.Drawing.Size(1031, 568)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
+        '
+        'OvalShape1
+        '
+        Me.OvalShape1.Location = New System.Drawing.Point(528, 64)
+        Me.OvalShape1.Name = "OvalShape1"
+        Me.OvalShape1.Size = New System.Drawing.Size(44, 45)
+        '
+        'ShapeContainer2
+        '
+        Me.ShapeContainer2.Location = New System.Drawing.Point(0, 0)
+        Me.ShapeContainer2.Margin = New System.Windows.Forms.Padding(0)
+        Me.ShapeContainer2.Name = "ShapeContainer2"
+        Me.ShapeContainer2.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.OvalShape1})
+        Me.ShapeContainer2.Size = New System.Drawing.Size(1031, 568)
+        Me.ShapeContainer2.TabIndex = 3
+        Me.ShapeContainer2.TabStop = False
+        '
+        'ContextMenuStrip3
+        '
+        Me.ContextMenuStrip3.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ContextMenuStrip3.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ClockinToolStripMenuItem, Me.AttendanceReportToolStripMenuItem})
+        Me.ContextMenuStrip3.Name = "ContextMenuStrip3"
+        Me.ContextMenuStrip3.Size = New System.Drawing.Size(198, 48)
+        '
+        'ClockinToolStripMenuItem
+        '
+        Me.ClockinToolStripMenuItem.Name = "ClockinToolStripMenuItem"
+        Me.ClockinToolStripMenuItem.Size = New System.Drawing.Size(197, 22)
+        Me.ClockinToolStripMenuItem.Text = "Clock-in / Clock-out"
+        '
+        'AttendanceReportToolStripMenuItem
+        '
+        Me.AttendanceReportToolStripMenuItem.Name = "AttendanceReportToolStripMenuItem"
+        Me.AttendanceReportToolStripMenuItem.Size = New System.Drawing.Size(197, 22)
+        Me.AttendanceReportToolStripMenuItem.Text = "Attendance Report"
+        '
+        'StaffProfile
+        '
+        Me.StaffProfile.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.StaffProfile.BackColor = System.Drawing.Color.Transparent
+        Me.StaffProfile.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.StaffProfile.Image = CType(resources.GetObject("StaffProfile.Image"), System.Drawing.Image)
+        Me.StaffProfile.Location = New System.Drawing.Point(728, 18)
+        Me.StaffProfile.Name = "StaffProfile"
+        Me.StaffProfile.Size = New System.Drawing.Size(35, 35)
+        Me.StaffProfile.TabIndex = 3
+        Me.StaffProfile.TabStop = False
         '
         'admin_dashboard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(922, 568)
+        Me.ClientSize = New System.Drawing.Size(1031, 568)
         Me.Controls.Add(Me.Guna2CustomGradientPanel1)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.ShapeContainer2)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "admin_dashboard"
@@ -314,6 +394,8 @@ Partial Class admin_dashboard
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ContextMenuStrip2.ResumeLayout(False)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ContextMenuStrip3.ResumeLayout(False)
+        CType(Me.StaffProfile, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -336,4 +418,11 @@ Partial Class admin_dashboard
     Friend WithEvents ContextMenuStrip2 As System.Windows.Forms.ContextMenuStrip
     Friend WithEvents ChangeYourPasswordToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents StaffProfile As WindowsApplication1.CircleAvatar
+    Friend WithEvents OvalShape1 As Microsoft.VisualBasic.PowerPacks.OvalShape
+    Friend WithEvents ShapeContainer2 As Microsoft.VisualBasic.PowerPacks.ShapeContainer
+    Friend WithEvents AttendanceBtn As System.Windows.Forms.Button
+    Friend WithEvents ContextMenuStrip3 As System.Windows.Forms.ContextMenuStrip
+    Friend WithEvents ClockinToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents AttendanceReportToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class

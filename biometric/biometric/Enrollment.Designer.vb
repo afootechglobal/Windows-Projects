@@ -24,6 +24,9 @@ Partial Class Enrollment
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Enrollment))
         Me.Guna2GroupBox1 = New Guna.UI2.WinForms.Guna2GroupBox()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.SubmitButton = New Guna.UI2.WinForms.Guna2Button()
+        Me.CloseButton = New Guna.UI2.WinForms.Guna2Button()
         Me.serial_txt = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
@@ -38,12 +41,13 @@ Partial Class Enrollment
         Me.Label1 = New System.Windows.Forms.Label()
         Me.fullname_txt = New Guna.UI2.WinForms.Guna2TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.LabelCount = New System.Windows.Forms.Label()
         Me.FptPictureBox = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.CloseButton = New Guna.UI2.WinForms.Guna2Button()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.selectpassport_button = New System.Windows.Forms.Button()
         Me.UserPictureBox = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2GroupBox1.SuspendLayout()
+        Me.GroupBox4.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         CType(Me.FptPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -54,11 +58,11 @@ Partial Class Enrollment
         'Guna2GroupBox1
         '
         Me.Guna2GroupBox1.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Guna2GroupBox1.Controls.Add(Me.GroupBox4)
         Me.Guna2GroupBox1.Controls.Add(Me.serial_txt)
         Me.Guna2GroupBox1.Controls.Add(Me.Label6)
         Me.Guna2GroupBox1.Controls.Add(Me.GroupBox2)
         Me.Guna2GroupBox1.Controls.Add(Me.GroupBox1)
-        Me.Guna2GroupBox1.Controls.Add(Me.CloseButton)
         Me.Guna2GroupBox1.Controls.Add(Me.GroupBox3)
         Me.Guna2GroupBox1.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(164, Byte), Integer), CType(CType(207, Byte), Integer), CType(CType(223, Byte), Integer))
         Me.Guna2GroupBox1.FillColor = System.Drawing.SystemColors.ButtonFace
@@ -69,7 +73,53 @@ Partial Class Enrollment
         Me.Guna2GroupBox1.ShadowDecoration.Parent = Me.Guna2GroupBox1
         Me.Guna2GroupBox1.Size = New System.Drawing.Size(1105, 533)
         Me.Guna2GroupBox1.TabIndex = 0
-        Me.Guna2GroupBox1.Text = "Biometric Enrollment"
+        Me.Guna2GroupBox1.Text = "User Biometric Enrollment"
+        '
+        'GroupBox4
+        '
+        Me.GroupBox4.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.GroupBox4.Controls.Add(Me.SubmitButton)
+        Me.GroupBox4.Controls.Add(Me.CloseButton)
+        Me.GroupBox4.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox4.Location = New System.Drawing.Point(859, 327)
+        Me.GroupBox4.Name = "GroupBox4"
+        Me.GroupBox4.Size = New System.Drawing.Size(221, 184)
+        Me.GroupBox4.TabIndex = 7
+        Me.GroupBox4.TabStop = False
+        '
+        'SubmitButton
+        '
+        Me.SubmitButton.BorderRadius = 5
+        Me.SubmitButton.CheckedState.Parent = Me.SubmitButton
+        Me.SubmitButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.SubmitButton.CustomImages.Parent = Me.SubmitButton
+        Me.SubmitButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(2, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(174, Byte), Integer))
+        Me.SubmitButton.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SubmitButton.ForeColor = System.Drawing.Color.White
+        Me.SubmitButton.HoverState.Parent = Me.SubmitButton
+        Me.SubmitButton.Location = New System.Drawing.Point(19, 22)
+        Me.SubmitButton.Name = "SubmitButton"
+        Me.SubmitButton.ShadowDecoration.Parent = Me.SubmitButton
+        Me.SubmitButton.Size = New System.Drawing.Size(180, 45)
+        Me.SubmitButton.TabIndex = 6
+        Me.SubmitButton.Text = "Submit"
+        '
+        'CloseButton
+        '
+        Me.CloseButton.BorderRadius = 5
+        Me.CloseButton.CheckedState.Parent = Me.CloseButton
+        Me.CloseButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.CloseButton.CustomImages.Parent = Me.CloseButton
+        Me.CloseButton.FillColor = System.Drawing.Color.Maroon
+        Me.CloseButton.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CloseButton.ForeColor = System.Drawing.Color.White
+        Me.CloseButton.HoverState.Parent = Me.CloseButton
+        Me.CloseButton.Location = New System.Drawing.Point(19, 122)
+        Me.CloseButton.Name = "CloseButton"
+        Me.CloseButton.ShadowDecoration.Parent = Me.CloseButton
+        Me.CloseButton.Size = New System.Drawing.Size(180, 45)
+        Me.CloseButton.TabIndex = 0
+        Me.CloseButton.Text = "Close"
         '
         'serial_txt
         '
@@ -140,6 +190,7 @@ Partial Class Enrollment
         '
         'GenderComboBox
         '
+        Me.GenderComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.GenderComboBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.GenderComboBox.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GenderComboBox.ForeColor = System.Drawing.Color.Black
@@ -233,7 +284,7 @@ Partial Class Enrollment
         Me.email_txt.BorderColor = System.Drawing.SystemColors.ControlLight
         Me.email_txt.BorderRadius = 5
         Me.email_txt.BorderThickness = 0
-        Me.email_txt.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.email_txt.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
         Me.email_txt.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.email_txt.DefaultText = ""
         Me.email_txt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
@@ -243,7 +294,7 @@ Partial Class Enrollment
         Me.email_txt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.email_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.email_txt.FocusedState.Parent = Me.email_txt
-        Me.email_txt.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.email_txt.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.email_txt.ForeColor = System.Drawing.Color.Black
         Me.email_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.email_txt.HoverState.Parent = Me.email_txt
@@ -278,7 +329,7 @@ Partial Class Enrollment
         '
         'fullname_txt
         '
-        Me.fullname_txt.BorderColor = System.Drawing.SystemColors.ControlLight
+        Me.fullname_txt.BorderColor = System.Drawing.SystemColors.ControlLightLight
         Me.fullname_txt.BorderRadius = 5
         Me.fullname_txt.BorderThickness = 0
         Me.fullname_txt.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
@@ -309,6 +360,7 @@ Partial Class Enrollment
         'GroupBox1
         '
         Me.GroupBox1.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.GroupBox1.Controls.Add(Me.LabelCount)
         Me.GroupBox1.Controls.Add(Me.FptPictureBox)
         Me.GroupBox1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.Location = New System.Drawing.Point(22, 61)
@@ -317,6 +369,15 @@ Partial Class Enrollment
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "To Enroll your Fingerprint, Place your finger on the scanner"
+        '
+        'LabelCount
+        '
+        Me.LabelCount.AutoSize = True
+        Me.LabelCount.Location = New System.Drawing.Point(24, 318)
+        Me.LabelCount.Name = "LabelCount"
+        Me.LabelCount.Size = New System.Drawing.Size(43, 15)
+        Me.LabelCount.TabIndex = 1
+        Me.LabelCount.Text = "Label7"
         '
         'FptPictureBox
         '
@@ -327,23 +388,6 @@ Partial Class Enrollment
         Me.FptPictureBox.Size = New System.Drawing.Size(247, 259)
         Me.FptPictureBox.TabIndex = 0
         Me.FptPictureBox.TabStop = False
-        '
-        'CloseButton
-        '
-        Me.CloseButton.BorderRadius = 5
-        Me.CloseButton.CheckedState.Parent = Me.CloseButton
-        Me.CloseButton.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.CloseButton.CustomImages.Parent = Me.CloseButton
-        Me.CloseButton.FillColor = System.Drawing.Color.Maroon
-        Me.CloseButton.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CloseButton.ForeColor = System.Drawing.Color.White
-        Me.CloseButton.HoverState.Parent = Me.CloseButton
-        Me.CloseButton.Location = New System.Drawing.Point(876, 449)
-        Me.CloseButton.Name = "CloseButton"
-        Me.CloseButton.ShadowDecoration.Parent = Me.CloseButton
-        Me.CloseButton.Size = New System.Drawing.Size(180, 45)
-        Me.CloseButton.TabIndex = 0
-        Me.CloseButton.Text = "Close"
         '
         'GroupBox3
         '
@@ -378,10 +422,10 @@ Partial Class Enrollment
         '
         Me.UserPictureBox.BackgroundImage = CType(resources.GetObject("UserPictureBox.BackgroundImage"), System.Drawing.Image)
         Me.UserPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.UserPictureBox.Location = New System.Drawing.Point(17, 31)
+        Me.UserPictureBox.Location = New System.Drawing.Point(17, 22)
         Me.UserPictureBox.Name = "UserPictureBox"
         Me.UserPictureBox.ShadowDecoration.Parent = Me.UserPictureBox
-        Me.UserPictureBox.Size = New System.Drawing.Size(187, 160)
+        Me.UserPictureBox.Size = New System.Drawing.Size(187, 169)
         Me.UserPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.UserPictureBox.TabIndex = 0
         Me.UserPictureBox.TabStop = False
@@ -397,9 +441,11 @@ Partial Class Enrollment
         Me.Name = "Enrollment"
         Me.Guna2GroupBox1.ResumeLayout(False)
         Me.Guna2GroupBox1.PerformLayout()
+        Me.GroupBox4.ResumeLayout(False)
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
         CType(Me.FptPictureBox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox3.ResumeLayout(False)
         CType(Me.UserPictureBox, System.ComponentModel.ISupportInitialize).EndInit()
@@ -426,4 +472,7 @@ Partial Class Enrollment
     Friend WithEvents UserPictureBox As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents serial_txt As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents SubmitButton As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents GroupBox4 As System.Windows.Forms.GroupBox
+    Friend WithEvents LabelCount As System.Windows.Forms.Label
 End Class

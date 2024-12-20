@@ -186,6 +186,7 @@ Partial Class AdminReg
         '
         'StatusComboBox
         '
+        Me.StatusComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.StatusComboBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.StatusComboBox.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.StatusComboBox.ForeColor = System.Drawing.Color.Black
@@ -206,6 +207,7 @@ Partial Class AdminReg
         '
         'RoleComboBox
         '
+        Me.RoleComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.RoleComboBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.RoleComboBox.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RoleComboBox.ForeColor = System.Drawing.Color.Black
@@ -298,7 +300,7 @@ Partial Class AdminReg
         Me.email_txt.BorderColor = System.Drawing.SystemColors.ControlLight
         Me.email_txt.BorderRadius = 5
         Me.email_txt.BorderThickness = 0
-        Me.email_txt.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.email_txt.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
         Me.email_txt.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.email_txt.DefaultText = ""
         Me.email_txt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
@@ -308,7 +310,7 @@ Partial Class AdminReg
         Me.email_txt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.email_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.email_txt.FocusedState.Parent = Me.email_txt
-        Me.email_txt.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.email_txt.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.email_txt.ForeColor = System.Drawing.Color.Black
         Me.email_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.email_txt.HoverState.Parent = Me.email_txt

@@ -37,17 +37,37 @@ Public Class login
         Return sb.ToString
     End Function
 
-    Private Sub Clear_Button_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        Me.Close()
-    End Sub
+    'Private Sub Clear_Button_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    '  Me.Close()
+    'End Sub
 
     Private Sub LoginButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles LoginButton.Click
         Dim hashcode As login
         hashcode = New login
         If email_txt.Text = "" Or Pass_txt.Text = "" Then
-            MessageBox.Show("All Fields are Required!", "Biometric Application", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            Dim formodal As New Form
+            Dim modal As New Enrollment
+            formodal.FormBorderStyle = FormBorderStyle.None
+            formodal.Opacity = 0.5
+            formodal.BackColor = Color.Black
+            formodal.WindowState = FormWindowState.Maximized
+            formodal.Show()
+            modal.Owner = formodal
+            EmptyMBox.ShowDialog()
+            formodal.Dispose()
+
         ElseIf validateEmail(email_txt.Text) = False Then
-            MessageBox.Show("Please Enter a valid Email Address to Continue!", "Biometric Application", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            Dim formodal As New Form
+            Dim modal As New Enrollment
+            formodal.FormBorderStyle = FormBorderStyle.None
+            formodal.Opacity = 0.5
+            formodal.BackColor = Color.Black
+            formodal.WindowState = FormWindowState.Maximized
+            formodal.Show()
+            modal.Owner = formodal
+            EmailValidation.ShowDialog()
+            formodal.Dispose()
+
             email_txt.Text = ""
             email_txt.Focus()
             Exit Sub
@@ -62,13 +82,23 @@ Public Class login
                 admin_dashboard.Show()
                 Me.Hide()
             Else
-                MessageBox.Show("Email Address or Password is Invalid!", "Biometric Application", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                Dim formodal As New Form
+                Dim modal As New Enrollment
+                formodal.FormBorderStyle = FormBorderStyle.None
+                formodal.Opacity = 0.5
+                formodal.BackColor = Color.Black
+                formodal.WindowState = FormWindowState.Maximized
+                formodal.Show()
+                modal.Owner = formodal
+                InvalidDetails.ShowDialog()
+                formodal.Dispose()
             End If
         End If
     End Sub
 
     Private Sub CloseButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CloseButton.Click
         Me.Close()
+        EmptyMBox.Close()
     End Sub
 
     Private Sub ForgotPass_Label_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ForgotPass_Label.Click
@@ -86,6 +116,85 @@ Public Class login
             Pass_txt.UseSystemPasswordChar = False
             CheckBox1.BackgroundImage = My.Resources.pngwing_com
             CheckBox1.BackgroundImageLayout = ImageLayout.Stretch
+        End If
+    End Sub
+
+    Private Sub BackPassBtn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BackPassBtn.Click
+        login_panel.Show()
+        ForgotPass_Panel.Hide()
+        ResetPass_Panel.Hide()
+    End Sub
+
+    Private Sub PassProceedBtn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PassProceedBtn.Click
+        If ForgotPass_txt.Text = "" Then
+            Dim formodal As New Form
+            Dim modal As New Enrollment
+            formodal.FormBorderStyle = FormBorderStyle.None
+            formodal.Opacity = 0.5
+            formodal.BackColor = Color.Black
+            formodal.WindowState = FormWindowState.Maximized
+            formodal.Show()
+            modal.Owner = formodal
+            EmailEmptyValidate.ShowDialog()
+            formodal.Dispose()
+
+        ElseIf validateEmail(ForgotPass_txt.Text) = False Then
+            Dim formodal As New Form
+            Dim modal As New Enrollment
+            formodal.FormBorderStyle = FormBorderStyle.None
+            formodal.Opacity = 0.5
+            formodal.BackColor = Color.Black
+            formodal.WindowState = FormWindowState.Maximized
+            formodal.Show()
+            modal.Owner = formodal
+            EmailValidation.ShowDialog()
+            formodal.Dispose()
+
+            ForgotPass_txt.Text = ""
+            ForgotPass_txt.Focus()
+            Exit Sub
+        Else
+            connection = MyFuctions.GetSqlConnection
+            query = "SELECT * FROM staff_tab WHERE email_address=@email_address"
+            command = New MySqlCommand(query, connection)
+            command.Parameters.AddWithValue("@email_address", ForgotPass_txt.Text)
+            reader = command.ExecuteReader
+            If reader.HasRows = True Then
+                ResetPass_Panel.Show()
+                'EmailLabel.Text = "( Dear," & ForgotPass_txt.Text & ")"
+            Else
+                Dim formodal As New Form
+                Dim modal As New Enrollment
+                formodal.FormBorderStyle = FormBorderStyle.None
+                formodal.Opacity = 0.5
+                formodal.BackColor = Color.Black
+                formodal.WindowState = FormWindowState.Maximized
+                formodal.Show()
+                modal.Owner = formodal
+                EmailNotExist.ShowDialog()
+                formodal.Dispose()
+            End If
+        End If
+    End Sub
+
+    Private Sub Guna2Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Back_btn.Click
+        ResetPass_Panel.Hide()
+        ForgotPass_Panel.Show()
+        login_panel.Hide()
+    End Sub
+
+    Private Sub ResetPass_btn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ResetPass_btn.Click
+        If OTP_txt.Text = "" Or CreatePass_txt.Text = "" Or ConfirmedPass_txt.Text = "" Then
+            Dim formodal As New Form
+            Dim modal As New Enrollment
+            formodal.FormBorderStyle = FormBorderStyle.None
+            formodal.Opacity = 0.5
+            formodal.BackColor = Color.Black
+            formodal.WindowState = FormWindowState.Maximized
+            formodal.Show()
+            modal.Owner = formodal
+            EmptyMBox.ShowDialog()
+            formodal.Dispose()
         End If
     End Sub
 End Class

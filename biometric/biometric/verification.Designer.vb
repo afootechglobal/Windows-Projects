@@ -38,16 +38,17 @@ Partial Class verification
         Me.Label1 = New System.Windows.Forms.Label()
         Me.fullname_txt = New Guna.UI2.WinForms.Guna2TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.LabelCount = New System.Windows.Forms.Label()
         Me.FptPictureBox = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.CloseButton = New Guna.UI2.WinForms.Guna2Button()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.UserPictureBox = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.UserPicturebox = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         CType(Me.FptPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox3.SuspendLayout()
-        CType(Me.UserPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.UserPicturebox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Guna2GroupBox1
@@ -147,7 +148,7 @@ Partial Class verification
         Me.gender_txt.FillColor = System.Drawing.SystemColors.ButtonFace
         Me.gender_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.gender_txt.FocusedState.Parent = Me.gender_txt
-        Me.gender_txt.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.gender_txt.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.gender_txt.ForeColor = System.Drawing.Color.Black
         Me.gender_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.gender_txt.HoverState.Parent = Me.gender_txt
@@ -187,7 +188,7 @@ Partial Class verification
         Me.address_txt.FillColor = System.Drawing.SystemColors.ButtonFace
         Me.address_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.address_txt.FocusedState.Parent = Me.address_txt
-        Me.address_txt.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.address_txt.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.address_txt.ForeColor = System.Drawing.Color.Black
         Me.address_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.address_txt.HoverState.Parent = Me.address_txt
@@ -236,7 +237,7 @@ Partial Class verification
         Me.mobile_txt.FillColor = System.Drawing.SystemColors.ButtonFace
         Me.mobile_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.mobile_txt.FocusedState.Parent = Me.mobile_txt
-        Me.mobile_txt.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.mobile_txt.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.mobile_txt.ForeColor = System.Drawing.Color.Black
         Me.mobile_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.mobile_txt.HoverState.Parent = Me.mobile_txt
@@ -255,7 +256,7 @@ Partial Class verification
         '
         Me.email_txt.BorderColor = System.Drawing.Color.White
         Me.email_txt.BorderRadius = 5
-        Me.email_txt.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.email_txt.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
         Me.email_txt.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.email_txt.DefaultText = ""
         Me.email_txt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
@@ -267,7 +268,7 @@ Partial Class verification
         Me.email_txt.FillColor = System.Drawing.SystemColors.ButtonFace
         Me.email_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.email_txt.FocusedState.Parent = Me.email_txt
-        Me.email_txt.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.email_txt.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.email_txt.ForeColor = System.Drawing.Color.Black
         Me.email_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.email_txt.HoverState.Parent = Me.email_txt
@@ -316,7 +317,7 @@ Partial Class verification
         Me.fullname_txt.FillColor = System.Drawing.SystemColors.ButtonFace
         Me.fullname_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.fullname_txt.FocusedState.Parent = Me.fullname_txt
-        Me.fullname_txt.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.fullname_txt.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.fullname_txt.ForeColor = System.Drawing.Color.Black
         Me.fullname_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.fullname_txt.HoverState.Parent = Me.fullname_txt
@@ -334,6 +335,7 @@ Partial Class verification
         'GroupBox1
         '
         Me.GroupBox1.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.GroupBox1.Controls.Add(Me.LabelCount)
         Me.GroupBox1.Controls.Add(Me.FptPictureBox)
         Me.GroupBox1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.Location = New System.Drawing.Point(22, 61)
@@ -341,7 +343,16 @@ Partial Class verification
         Me.GroupBox1.Size = New System.Drawing.Size(303, 351)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "To Verify your Fingerprint, Place your finger on the scanner"
+        Me.GroupBox1.Text = "To Verify your Fingerprint, Place your enrolled finger on the fingerprint reader"
+        '
+        'LabelCount
+        '
+        Me.LabelCount.AutoSize = True
+        Me.LabelCount.Location = New System.Drawing.Point(24, 317)
+        Me.LabelCount.Name = "LabelCount"
+        Me.LabelCount.Size = New System.Drawing.Size(10, 15)
+        Me.LabelCount.TabIndex = 2
+        Me.LabelCount.Text = " "
         '
         'FptPictureBox
         '
@@ -373,7 +384,7 @@ Partial Class verification
         'GroupBox3
         '
         Me.GroupBox3.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.GroupBox3.Controls.Add(Me.UserPictureBox)
+        Me.GroupBox3.Controls.Add(Me.UserPicturebox)
         Me.GroupBox3.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox3.Location = New System.Drawing.Point(859, 61)
         Me.GroupBox3.Name = "GroupBox3"
@@ -382,17 +393,17 @@ Partial Class verification
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Passport"
         '
-        'UserPictureBox
+        'UserPicturebox
         '
-        Me.UserPictureBox.BackgroundImage = CType(resources.GetObject("UserPictureBox.BackgroundImage"), System.Drawing.Image)
-        Me.UserPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.UserPictureBox.Location = New System.Drawing.Point(17, 31)
-        Me.UserPictureBox.Name = "UserPictureBox"
-        Me.UserPictureBox.ShadowDecoration.Parent = Me.UserPictureBox
-        Me.UserPictureBox.Size = New System.Drawing.Size(187, 198)
-        Me.UserPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.UserPictureBox.TabIndex = 0
-        Me.UserPictureBox.TabStop = False
+        Me.UserPicturebox.BackgroundImage = CType(resources.GetObject("UserPicturebox.BackgroundImage"), System.Drawing.Image)
+        Me.UserPicturebox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.UserPicturebox.Location = New System.Drawing.Point(17, 31)
+        Me.UserPicturebox.Name = "UserPicturebox"
+        Me.UserPicturebox.ShadowDecoration.Parent = Me.UserPicturebox
+        Me.UserPicturebox.Size = New System.Drawing.Size(187, 200)
+        Me.UserPicturebox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.UserPicturebox.TabIndex = 1
+        Me.UserPicturebox.TabStop = False
         '
         'verification
         '
@@ -410,9 +421,10 @@ Partial Class verification
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
         CType(Me.FptPictureBox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox3.ResumeLayout(False)
-        CType(Me.UserPictureBox, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.UserPicturebox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -434,5 +446,6 @@ Partial Class verification
     Friend WithEvents FptPictureBox As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents CloseButton As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
-    Friend WithEvents UserPictureBox As Guna.UI2.WinForms.Guna2PictureBox
+    Friend WithEvents LabelCount As System.Windows.Forms.Label
+    Friend WithEvents UserPicturebox As Guna.UI2.WinForms.Guna2PictureBox
 End Class

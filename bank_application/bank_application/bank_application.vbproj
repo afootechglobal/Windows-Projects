@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{119B0CEC-6495-4CED-8B3E-0FFA15A15848}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>bank_application.My.MyApplication</StartupObject>
+    <RootNamespace>bank_application</RootNamespace>
+    <AssemblyName>bank_application</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>bank_application.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>bank_application.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\..\..\Downloads\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\auto_system 2024\auto_system 2024\bin\Debug\MySql.Data.DLL</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\adminlogin_form.Designer.vb">
+      <DependentUpon>adminlogin_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\adminlogin_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_dashboard.Designer.vb">
+      <DependentUpon>admin_dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin_dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_form.Designer.vb">
+      <DependentUpon>admin_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_reg_form.Designer.vb">
+      <DependentUpon>admin_reg_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin_reg_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\customer_reg_form.Designer.vb">
+      <DependentUpon>customer_reg_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\customer_reg_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\deposit_form.Designer.vb">
+      <DependentUpon>deposit_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\deposit_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_reset_pass_form.Designer.vb">
+      <DependentUpon>admin_reset_pass_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin_reset_pass_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\finish_reset_pass_form.Designer.vb">
+      <DependentUpon>finish_reset_pass_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\finish_reset_pass_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="change_pass_form.Designer.vb">
+      <DependentUpon>change_pass_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="change_pass_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="customer_loan_schedule.Designer.vb">
+      <DependentUpon>customer_loan_schedule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="customer_loan_schedule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="index.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="index.Designer.vb">
+      <DependentUpon>index.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\loan_schedule_form.Designer.vb">
+      <DependentUpon>loan_schedule_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\loan_schedule_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\loan_request_form.Designer.vb">
+      <DependentUpon>loan_request_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User\loan_request_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="myfunctions.vb" />
+    <Compile Include="overlay.Designer.vb">
+      <DependentUpon>overlay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="overlay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\settlings_form.Designer.vb">
+      <DependentUpon>settlings_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\settlings_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\transaction_form.Designer.vb">
+      <DependentUpon>transaction_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\transaction_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\userlogin_form.Designer.vb">
+      <DependentUpon>userlogin_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User\userlogin_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\view_customer_form.Designer.vb">
+      <DependentUpon>view_customer_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\view_customer_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\view_loan_form.Designer.vb">
+      <DependentUpon>view_loan_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\view_loan_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\user_dashboard.Designer.vb">
+      <DependentUpon>user_dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User\user_dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\user_reset_pass_form.Designer.vb">
+      <DependentUpon>user_reset_pass_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User\user_reset_pass_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\user_deposit_form.Designer.vb">
+      <DependentUpon>user_deposit_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User\user_deposit_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\user_finish_reset_pass.Designer.vb">
+      <DependentUpon>user_finish_reset_pass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User\user_finish_reset_pass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\user_transaction_form.Designer.vb">
+      <DependentUpon>user_transaction_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User\user_transaction_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Admin\adminlogin_form.resx">
+      <DependentUpon>adminlogin_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\admin_dashboard.resx">
+      <DependentUpon>admin_dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\admin_form.resx">
+      <DependentUpon>admin_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\admin_reg_form.resx">
+      <DependentUpon>admin_reg_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\customer_reg_form.resx">
+      <DependentUpon>customer_reg_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\deposit_form.resx">
+      <DependentUpon>deposit_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\admin_reset_pass_form.resx">
+      <DependentUpon>admin_reset_pass_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\finish_reset_pass_form.resx">
+      <DependentUpon>finish_reset_pass_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="change_pass_form.resx">
+      <DependentUpon>change_pass_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customer_loan_schedule.resx">
+      <DependentUpon>customer_loan_schedule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="index.resx">
+      <DependentUpon>index.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\loan_schedule_form.resx">
+      <DependentUpon>loan_schedule_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\loan_request_form.resx">
+      <DependentUpon>loan_request_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="overlay.resx">
+      <DependentUpon>overlay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\settlings_form.resx">
+      <DependentUpon>settlings_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\transaction_form.resx">
+      <DependentUpon>transaction_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\userlogin_form.resx">
+      <DependentUpon>userlogin_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\view_customer_form.resx">
+      <DependentUpon>view_customer_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\view_loan_form.resx">
+      <DependentUpon>view_loan_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\user_dashboard.resx">
+      <DependentUpon>user_dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\user_reset_pass_form.resx">
+      <DependentUpon>user_reset_pass_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\user_deposit_form.resx">
+      <DependentUpon>user_deposit_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\user_finish_reset_pass.resx">
+      <DependentUpon>user_finish_reset_pass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\user_transaction_form.resx">
+      <DependentUpon>user_transaction_form.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\friends.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back arrow.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

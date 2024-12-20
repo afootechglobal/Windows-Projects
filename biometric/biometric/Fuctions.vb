@@ -15,7 +15,7 @@ Module MyFuctions
     Dim mstream As New MemoryStream
     Dim arrimage() As Byte
     Dim DT As New DataTable
-    Dim staff_id As String
+    Dim staff_id, user_id As String
 
     Public Function GetSqlConnection() As MySqlConnection
         Dim connstring As String = "server=localhost;user id=root;password=;database=biometric"
@@ -61,6 +61,23 @@ Module MyFuctions
         Return staff_id
     End Function
 
+    Public Function userID()
+        connection = MyFuctions.GetSqlConnection
+        query = "SELECT counter_value FROM counter_tab WHERE counter_id='REG'"
+        command = New MySqlCommand(query, connection)
+        command.Parameters.AddWithValue("@counter_id", counter_value)
+        reader = command.ExecuteReader
+        reader.Read()
+        counter_value = reader("counter_value")
+        connection.Close()
+
+        counter_value = counter_value + 1
+        TimeID = Now.ToString("yyyyMMddss")
+        Call counter_user("REG", counter_value)
+        user_id = "REG" + TimeID + counter_value.ToString
+        Return user_id
+    End Function
+
     'Password hashing code......
     Public Function Md5FromString(ByVal source As String) As String
         Dim Bytes() As Byte
@@ -76,6 +93,45 @@ Module MyFuctions
         Return sb.ToString
     End Function
 
+    Public Function AdminRegistration()
+        Dim formodal As New Form
+        Try
+            Dim modal As New Enrollment
+            formodal.FormBorderStyle = FormBorderStyle.None
+            formodal.Opacity = 0.5
+            formodal.BackColor = Color.Black
+            formodal.WindowState = FormWindowState.Maximized
+            formodal.Show()
+            modal.Owner = formodal
 
+            AdminReg.ShowDialog()
+        Catch ex As Exception
+        Finally
+            formodal.Dispose()
+        End Try
+    End Function
+
+    Public Function UserEnrollment()
+        Dim formodal As New Form
+        Try
+            Dim modal As New Enrollment
+            formodal.FormBorderStyle = FormBorderStyle.None
+            formodal.Opacity = 0.5
+            formodal.BackColor = Color.Black
+            formodal.WindowState = FormWindowState.Maximized
+            formodal.Show()
+            modal.Owner = formodal
+
+            Enrollment.ShowDialog()
+        Catch ex As Exception
+        Finally
+            formodal.Dispose()
+        End Try
+    End Function
+
+
+
+
+ 
 
 End Module

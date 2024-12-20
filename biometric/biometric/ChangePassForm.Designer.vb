@@ -24,6 +24,7 @@ Partial Class ChangePassForm
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ChangePassForm))
         Me.Guna2GroupBox1 = New Guna.UI2.WinForms.Guna2GroupBox()
+        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.CloseButton = New Guna.UI2.WinForms.Guna2Button()
@@ -34,7 +35,6 @@ Partial Class ChangePassForm
         Me.NewPass_txt = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.CurrentPass_txt = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         Me.Guna2GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -62,6 +62,26 @@ Partial Class ChangePassForm
         Me.Guna2GroupBox1.Size = New System.Drawing.Size(539, 382)
         Me.Guna2GroupBox1.TabIndex = 0
         Me.Guna2GroupBox1.Text = "Change Password"
+        '
+        'CheckBox3
+        '
+        Me.CheckBox3.Appearance = System.Windows.Forms.Appearance.Button
+        Me.CheckBox3.AutoSize = True
+        Me.CheckBox3.BackColor = System.Drawing.Color.White
+        Me.CheckBox3.BackgroundImage = CType(resources.GetObject("CheckBox3.BackgroundImage"), System.Drawing.Image)
+        Me.CheckBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.CheckBox3.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.CheckBox3.FlatAppearance.BorderSize = 0
+        Me.CheckBox3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.CheckBox3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.CheckBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CheckBox3.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox3.Location = New System.Drawing.Point(470, 268)
+        Me.CheckBox3.Name = "CheckBox3"
+        Me.CheckBox3.Size = New System.Drawing.Size(20, 23)
+        Me.CheckBox3.TabIndex = 14
+        Me.CheckBox3.Text = " "
+        Me.CheckBox3.UseVisualStyleBackColor = False
         '
         'CheckBox2
         '
@@ -171,7 +191,7 @@ Partial Class ChangePassForm
         Me.ConfirmedPass_txt.Name = "ConfirmedPass_txt"
         Me.ConfirmedPass_txt.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.ConfirmedPass_txt.PlaceholderForeColor = System.Drawing.Color.Black
-        Me.ConfirmedPass_txt.PlaceholderText = ""
+        Me.ConfirmedPass_txt.PlaceholderText = "CONFIRMED PASSWORD"
         Me.ConfirmedPass_txt.SelectedText = ""
         Me.ConfirmedPass_txt.ShadowDecoration.Parent = Me.ConfirmedPass_txt
         Me.ConfirmedPass_txt.Size = New System.Drawing.Size(468, 41)
@@ -212,7 +232,7 @@ Partial Class ChangePassForm
         Me.NewPass_txt.Name = "NewPass_txt"
         Me.NewPass_txt.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.NewPass_txt.PlaceholderForeColor = System.Drawing.Color.Black
-        Me.NewPass_txt.PlaceholderText = ""
+        Me.NewPass_txt.PlaceholderText = "NEW PASSWORD"
         Me.NewPass_txt.SelectedText = ""
         Me.NewPass_txt.ShadowDecoration.Parent = Me.NewPass_txt
         Me.NewPass_txt.Size = New System.Drawing.Size(468, 41)
@@ -253,32 +273,12 @@ Partial Class ChangePassForm
         Me.CurrentPass_txt.Name = "CurrentPass_txt"
         Me.CurrentPass_txt.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.CurrentPass_txt.PlaceholderForeColor = System.Drawing.Color.Black
-        Me.CurrentPass_txt.PlaceholderText = ""
+        Me.CurrentPass_txt.PlaceholderText = "CURRENT PASSWORD"
         Me.CurrentPass_txt.SelectedText = ""
         Me.CurrentPass_txt.ShadowDecoration.Parent = Me.CurrentPass_txt
         Me.CurrentPass_txt.Size = New System.Drawing.Size(468, 41)
         Me.CurrentPass_txt.TabIndex = 4
         Me.CurrentPass_txt.UseSystemPasswordChar = True
-        '
-        'CheckBox3
-        '
-        Me.CheckBox3.Appearance = System.Windows.Forms.Appearance.Button
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.BackColor = System.Drawing.Color.White
-        Me.CheckBox3.BackgroundImage = CType(resources.GetObject("CheckBox3.BackgroundImage"), System.Drawing.Image)
-        Me.CheckBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.CheckBox3.FlatAppearance.BorderColor = System.Drawing.Color.White
-        Me.CheckBox3.FlatAppearance.BorderSize = 0
-        Me.CheckBox3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.CheckBox3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.CheckBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.CheckBox3.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox3.Location = New System.Drawing.Point(470, 268)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(20, 23)
-        Me.CheckBox3.TabIndex = 14
-        Me.CheckBox3.Text = " "
-        Me.CheckBox3.UseVisualStyleBackColor = False
         '
         'ChangePassForm
         '

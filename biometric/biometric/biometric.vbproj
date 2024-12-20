@@ -49,10 +49,47 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DPFPCtlXTypeLibNET, Version=1.6.1.0, Culture=neutral, PublicKeyToken=c0c98f712d5392a7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\Downloads\Digital Persona Sdk &amp; Drivers\Digital Persona 4500\.NET\Bin\DPFPCtlXTypeLibNET.dll</HintPath>
+    </Reference>
+    <Reference Include="DPFPCtlXWrapperNET, Version=1.6.1.0, Culture=neutral, PublicKeyToken=c0c98f712d5392a7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Downloads\Digital Persona Sdk &amp; Drivers\Digital Persona 4500\.NET\Bin\DPFPCtlXWrapperNET.dll</HintPath>
+    </Reference>
+    <Reference Include="DPFPDevNET, Version=1.6.1.0, Culture=neutral, PublicKeyToken=696774c42ee28c57, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Downloads\Digital Persona Sdk &amp; Drivers\Digital Persona 4500\.NET\Bin\DPFPDevNET.dll</HintPath>
+    </Reference>
+    <Reference Include="DPFPEngNET, Version=1.6.1.0, Culture=neutral, PublicKeyToken=7fe76e7adf19964b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Downloads\Digital Persona Sdk &amp; Drivers\Digital Persona 4500\.NET\Bin\DPFPEngNET.dll</HintPath>
+    </Reference>
+    <Reference Include="DPFPGuiNET, Version=1.6.1.0, Culture=neutral, PublicKeyToken=d4f4a0bd9c559145, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Downloads\Digital Persona Sdk &amp; Drivers\Digital Persona 4500\.NET\Bin\DPFPGuiNET.dll</HintPath>
+    </Reference>
+    <Reference Include="DPFPShrNET, Version=1.6.1.0, Culture=neutral, PublicKeyToken=d902fe275a8d6cf2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Downloads\Digital Persona Sdk &amp; Drivers\Digital Persona 4500\.NET\Bin\DPFPShrNET.dll</HintPath>
+    </Reference>
+    <Reference Include="DPFPShrXTypeLibNET, Version=1.6.1.0, Culture=neutral, PublicKeyToken=c0c98f712d5392a7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\Downloads\Digital Persona Sdk &amp; Drivers\Digital Persona 4500\.NET\Bin\DPFPShrXTypeLibNET.dll</HintPath>
+    </Reference>
+    <Reference Include="DPFPVerNET, Version=1.6.1.0, Culture=neutral, PublicKeyToken=4de0a9c4dcc83984, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Downloads\Digital Persona Sdk &amp; Drivers\Digital Persona 4500\.NET\Bin\DPFPVerNET.dll</HintPath>
+    </Reference>
     <Reference Include="Guna.UI2">
       <HintPath>..\..\..\..\..\Downloads\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MsgShow">
+      <HintPath>..\..\..\..\..\Downloads\MsgShow\MsgShow.dll</HintPath>
+    </Reference>
     <Reference Include="MySql.Data">
       <HintPath>..\..\..\..\..\..\..\xampp\MySql.Data.DLL</HintPath>
     </Reference>
@@ -92,10 +129,52 @@
     <Compile Include="admin_dashboard.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="AttendanceReport.Designer.vb">
+      <DependentUpon>AttendanceReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AttendanceReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ChangePassForm.Designer.vb">
       <DependentUpon>ChangePassForm.vb</DependentUpon>
     </Compile>
     <Compile Include="ChangePassForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clokin.Designer.vb">
+      <DependentUpon>Clokin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clokin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmailEmptyValidate.Designer.vb">
+      <DependentUpon>EmailEmptyValidate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmailEmptyValidate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmailExist.Designer.vb">
+      <DependentUpon>EmailExist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmailExist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmailNotExist.Designer.vb">
+      <DependentUpon>EmailNotExist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmailNotExist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmailValidation.Designer.vb">
+      <DependentUpon>EmailValidation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmailValidation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmptyMBox.Designer.vb">
+      <DependentUpon>EmptyMBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmptyMBox.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Enrollment.Designer.vb">
@@ -104,7 +183,31 @@
     <Compile Include="Enrollment.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FptTemplateValid.Designer.vb">
+      <DependentUpon>FptTemplateValid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FptTemplateValid.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FptValidation.Designer.vb">
+      <DependentUpon>FptValidation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FptValidation.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Fuctions.vb" />
+    <Compile Include="GenderSelect.Designer.vb">
+      <DependentUpon>GenderSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GenderSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InvalidDetails.Designer.vb">
+      <DependentUpon>InvalidDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InvalidDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="login.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -127,10 +230,61 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="QuestionForm.Designer.vb">
-      <DependentUpon>QuestionForm.vb</DependentUpon>
+    <Compile Include="PassportSelect.Designer.vb">
+      <DependentUpon>PassportSelect.vb</DependentUpon>
     </Compile>
-    <Compile Include="QuestionForm.vb">
+    <Compile Include="PassportSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PassUpdate.Designer.vb">
+      <DependentUpon>PassUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PassUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PasswordConfirmation.Designer.vb">
+      <DependentUpon>PasswordConfirmation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PasswordConfirmation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhoneExist.Designer.vb">
+      <DependentUpon>PhoneExist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PhoneExist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhoneNoVerification.Designer.vb">
+      <DependentUpon>PhoneNoVerification.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PhoneNoVerification.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogoutForm.Designer.vb">
+      <DependentUpon>LogoutForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LogoutForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecordSave.Designer.vb">
+      <DependentUpon>RecordSave.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RecordSave.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Components\CircleAvatar.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StaffRecord.Designer.vb">
+      <DependentUpon>StaffRecord.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StaffRecord.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecordUpdate.Designer.vb">
+      <DependentUpon>RecordUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RecordUpdate.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UserRecord.Designer.vb">
@@ -145,6 +299,18 @@
     <Compile Include="verification.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="YesNoSave.Designer.vb">
+      <DependentUpon>YesNoSave.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YesNoSave.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YesNoUpdate.Designer.vb">
+      <DependentUpon>YesNoUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YesNoUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AdminReg.resx">
@@ -153,11 +319,44 @@
     <EmbeddedResource Include="admin_dashboard.resx">
       <DependentUpon>admin_dashboard.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AttendanceReport.resx">
+      <DependentUpon>AttendanceReport.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChangePassForm.resx">
       <DependentUpon>ChangePassForm.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Clokin.resx">
+      <DependentUpon>Clokin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmailEmptyValidate.resx">
+      <DependentUpon>EmailEmptyValidate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmailExist.resx">
+      <DependentUpon>EmailExist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmailNotExist.resx">
+      <DependentUpon>EmailNotExist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmailValidation.resx">
+      <DependentUpon>EmailValidation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmptyMBox.resx">
+      <DependentUpon>EmptyMBox.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Enrollment.resx">
       <DependentUpon>Enrollment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FptTemplateValid.resx">
+      <DependentUpon>FptTemplateValid.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FptValidation.resx">
+      <DependentUpon>FptValidation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenderSelect.resx">
+      <DependentUpon>GenderSelect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvalidDetails.resx">
+      <DependentUpon>InvalidDetails.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.vb</DependentUpon>
@@ -168,14 +367,44 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="QuestionForm.resx">
-      <DependentUpon>QuestionForm.vb</DependentUpon>
+    <EmbeddedResource Include="PassportSelect.resx">
+      <DependentUpon>PassportSelect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PassUpdate.resx">
+      <DependentUpon>PassUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PasswordConfirmation.resx">
+      <DependentUpon>PasswordConfirmation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhoneExist.resx">
+      <DependentUpon>PhoneExist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhoneNoVerification.resx">
+      <DependentUpon>PhoneNoVerification.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogoutForm.resx">
+      <DependentUpon>LogoutForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecordSave.resx">
+      <DependentUpon>RecordSave.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffRecord.resx">
+      <DependentUpon>StaffRecord.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecordUpdate.resx">
+      <DependentUpon>RecordUpdate.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserRecord.resx">
       <DependentUpon>UserRecord.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="verification.resx">
       <DependentUpon>verification.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YesNoSave.resx">
+      <DependentUpon>YesNoSave.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YesNoUpdate.resx">
+      <DependentUpon>YesNoUpdate.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -209,6 +438,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\eye5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proceed arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com%287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com%288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com%289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com%286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com%285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closeR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exclamation.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
