@@ -38,3 +38,46 @@ C:\Users\USER\documents\visual studio 2010\Projects\biometric\biometric\obj\x86\
 C:\Users\USER\documents\visual studio 2010\Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.RecordUpdate.resources
 C:\Users\USER\documents\visual studio 2010\Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.AttendanceReport.resources
 C:\Users\USER\Documents\Visual Studio 2010\Projects\biometric\biometric\bin\Debug\Guna.UI2.dll
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\biometric.exe
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\biometric.xml
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\biometric.pdb
+D:\my-projects\Windows-Projects\biometric\biometric\bin\Debug\biometric.exe
+D:\my-projects\Windows-Projects\biometric\biometric\bin\Debug\biometric.pdb
+D:\my-projects\Windows-Projects\biometric\biometric\bin\Debug\biometric.xml
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\biometric.vbprojResolveAssemblyReference.cache
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.AdminReg.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.admin_dashboard.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.AttendanceReport.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.ChangePassForm.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.Clokin.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.EmailEmptyValidate.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.EmailExist.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.EmailNotExist.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.EmailValidation.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.EmptyMBox.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.Enrollment.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.FptTemplateValid.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.FptValidation.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.GenderSelect.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.InvalidDetails.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.login.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.PassportSelect.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.PassUpdate.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.PasswordConfirmation.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.PhoneExist.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.PhoneNoVerification.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.LogoutForm.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.RecordSave.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.StaffRecord.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.RecordUpdate.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.UserRecord.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.verification.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.YesNoSave.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\WindowsApplication1.YesNoUpdate.resources
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\biometric.vbproj.GenerateResource.Cache
+D:\my-projects\Windows-Projects\biometric\biometric\bin\Debug\biometric.exe.manifest
+D:\my-projects\Windows-Projects\biometric\biometric\bin\Debug\biometric.application
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\biometric.TrustInfo.xml
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\biometric.exe.manifest
+D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\biometric.application

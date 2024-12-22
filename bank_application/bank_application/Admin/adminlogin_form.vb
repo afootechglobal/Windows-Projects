@@ -56,4 +56,12 @@ Public Class adminlogin_form
         Me.Hide()
         admin_reset_pass_form.Show()
     End Sub
+
+    Private Sub Guna2GroupBox1_Click(sender As System.Object, e As System.EventArgs) Handles Guna2GroupBox1.Click
+
+    End Sub
+
+    Private Sub GroupBox1_Enter(sender As System.Object, e As System.EventArgs) Handles GroupBox1.Enter
+
+    End Sub
 End Class

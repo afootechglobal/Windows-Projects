@@ -47,3 +47,36 @@ C:\Users\USER\documents\visual studio 2010\Projects\bank_application\bank_applic
 C:\Users\USER\documents\visual studio 2010\Projects\bank_application\bank_application\obj\x86\Debug\bank_application.user_transaction_form.resources
 C:\Users\USER\documents\visual studio 2010\Projects\bank_application\bank_application\obj\x86\Debug\bank_application.customer_loan_schedule.resources
 C:\Users\USER\documents\visual studio 2010\Projects\bank_application\bank_application\obj\x86\Debug\bank_application.change_pass_form.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.exe
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.xml
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.pdb
+D:\my-projects\Windows-Projects\bank_application\bank_application\bin\Debug\bank_application.exe
+D:\my-projects\Windows-Projects\bank_application\bank_application\bin\Debug\bank_application.pdb
+D:\my-projects\Windows-Projects\bank_application\bank_application\bin\Debug\bank_application.xml
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.vbprojResolveAssemblyReference.cache
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.adminlogin_form.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.admin_dashboard.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.admin_form.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.admin_reg_form.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.customer_reg_form.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.deposit_form.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.admin_reset_pass_form.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.finish_reset_pass_form.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.change_pass_form.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.customer_loan_schedule.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.index_form.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.loan_schedule_form.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.loan_request_form.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.Resources.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.overlay.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.settlings_form.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.transaction_form.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.userlogin_form.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.view_customer_form.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.view_loan_form.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.user_dashboard.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.user_reset_pass_form.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.user_deposit_form.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.user_finish_reset_pass.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.user_transaction_form.resources
+D:\my-projects\Windows-Projects\bank_application\bank_application\obj\x86\Debug\bank_application.vbproj.GenerateResource.Cache

@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="biometric.exe" version="1.0.0.0" publicKeyToken="d6848aa1c052318c" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="logo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="biometric" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="biometric.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DPFPCtlXWrapperNET" version="1.6.1.0" publicKeyToken="C0C98F712D5392A7" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DPFPDevNET" version="1.6.1.0" publicKeyToken="696774C42EE28C57" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DPFPEngNET" version="1.6.1.0" publicKeyToken="7FE76E7ADF19964B" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DPFPGuiNET" version="1.6.1.0" publicKeyToken="D4F4A0BD9C559145" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DPFPShrNET" version="1.6.1.0" publicKeyToken="D902FE275A8D6CF2" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DPFPVerNET" version="1.6.1.0" publicKeyToken="4DE0A9C4DCC83984" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="biometric.exe" size="2977792">
+      <assemblyIdentity name="biometric" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Oa24j44COJuP267HCl3UYXq1iPk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI2.dll" size="1510056">
+      <assemblyIdentity name="Guna.UI2" version="2.0.0.1" publicKeyToken="AD275B4BE6718D4B" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>AV6zKq1vUwkpbDqI8MWrG6RR1B4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="457728">
+      <assemblyIdentity name="MySql.Data" version="6.9.8.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>B6Mze1CmSDAzJDIOQ/grJAi8tBQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="logo.ico" size="9662">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>exSa38yB/CsNZX5ywzBC1R3K4TM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=TTECH_GLOBAL\afola" issuerKeyHash="ed0b7c0301c3dbf966677494835556910df23797" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>c8ygPLxtFXxJVgaWXdP5RR93nMc=</DigestValue></Reference></SignedInfo><SignatureValue>qXg5fhTpmcwqIDLNedMq1M72N4nqqGK2EqOVht2PytVomecICOPx2wVYSFxMvrcW0bypMcnZDEDAXu3hWRqBa3ze0py6z+ATtY+X04xEUuN71O23DuVvPhKHkRbSiO6xFkvWbHq2Pc8Ldu0vNLLNtngiKUpdkaw/wOV9y3dIHNk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wVMD2YkjhBbW7CNsyhmZY7OpFJeDtU4QOtMVW90lCS379T9WsULhETw+7ILCAiuFHbiiABKpYeSRmByafVOdESArYcfpwky+jjqo/W/xqVVyw6HsYrxj/Cw3tTecB/lIkLTYL80smG4EJk/zATGqTdMHlr2ms3mUIrcGjKIeib0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c79c771f45f9d35d960656497c156dbc3ca0cc73" Description="" Url=""><as:assemblyIdentity name="biometric.exe" version="1.0.0.0" publicKeyToken="d6848aa1c052318c" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TTECH_GLOBAL\afola</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>G1EKqkzeZd0fV6Wfbt50HOtMDKo=</DigestValue></Reference></SignedInfo><SignatureValue>sloPWcS7dbPcrnWoJAlLovzr/3oKOmweiUIFaKW807nKNJ4pxOYuS+PRyLgKtxUoEQiDkV5G3GOmnnNzWWczcMUGUg3tuMwjt9v0ZuUzxMdncnst1mOL31HqQa+A/PC6Qxah/T4a3obezUcuzG/F1Iybmk+xl02GEPnTSQXH6S8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wVMD2YkjhBbW7CNsyhmZY7OpFJeDtU4QOtMVW90lCS379T9WsULhETw+7ILCAiuFHbiiABKpYeSRmByafVOdESArYcfpwky+jjqo/W/xqVVyw6HsYrxj/Cw3tTecB/lIkLTYL80smG4EJk/zATGqTdMHlr2ms3mUIrcGjKIeib0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQcVDrMQVCzodP5c7Nr522kDANBgkqhkiG9w0BAQUFADAvMS0wKwYDVQQDHiQAVABUAEUAQwBIAF8ARwBMAE8AQgBBAEwAXABhAGYAbwBsAGEwHhcNMjQxMjIwMTUxNzE2WhcNMjUxMjIwMjExNzE2WjAvMS0wKwYDVQQDHiQAVABUAEUAQwBIAF8ARwBMAE8AQgBBAEwAXABhAGYAbwBsAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMFTA9mJI4QW1uwjbMoZmWOzqRSXg7VOEDrTFVvdJQkt+/U/VrFC4RE8PuyCwgIrhR24ogASqWHkkZgcmn1TnREgK2HH6cJMvo46qP1v8alVcsOh7GK8Y/wsN7U3nAf5SJC02C/NLJhuBCZP8wExqk3TB5a9prN5lCK3BoyiHom9AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAggC6g2FVLD99VDz/umUKznlt9juOBTwmNYiPig9lsO5L8JaZesAzqo9DyZThNf6fF4pathmASWkNSHUKUf0vCFirgCAy2hxxYYRfAa96J+o3U3hhHPjH3iPgEU1dT3IHvKrLZQSoLKBvsEuiBlrmHV8Qb0eDqY7FyBBD6y9xnXQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

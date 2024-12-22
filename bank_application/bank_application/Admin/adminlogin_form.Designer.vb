@@ -37,8 +37,8 @@ Partial Class adminlogin_form
         '
         'Guna2GroupBox1
         '
-        Me.Guna2GroupBox1.Controls.Add(Me.GroupBox1)
         Me.Guna2GroupBox1.Controls.Add(Me.closeBtn)
+        Me.Guna2GroupBox1.Controls.Add(Me.GroupBox1)
         Me.Guna2GroupBox1.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(2, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(174, Byte), Integer))
         Me.Guna2GroupBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2GroupBox1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
@@ -161,6 +161,7 @@ Partial Class adminlogin_form
         Me.email_txt.Location = New System.Drawing.Point(12, 72)
         Me.email_txt.Name = "email_txt"
         Me.email_txt.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.email_txt.PlaceholderForeColor = System.Drawing.Color.Red
         Me.email_txt.PlaceholderText = "ENTER YOUR EMAIL ADDRESS"
         Me.email_txt.SelectedText = ""
         Me.email_txt.ShadowDecoration.Parent = Me.email_txt

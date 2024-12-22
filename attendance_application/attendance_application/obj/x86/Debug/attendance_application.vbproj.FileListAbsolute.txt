@@ -1,0 +1,15 @@
+C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\attendance_application\bin\Debug\attendance_application.exe.manifest
+C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\attendance_application\bin\Debug\attendance_application.application
+C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\attendance_application\bin\Debug\attendance_application.exe
+C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\attendance_application\bin\Debug\attendance_application.pdb
+C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\attendance_application\bin\Debug\attendance_application.xml
+C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\attendance_application\obj\x86\Debug\attendance_application.Resources.resources
+C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\attendance_application\obj\x86\Debug\attendance_application.vbproj.GenerateResource.Cache
+C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\attendance_application\obj\x86\Debug\attendance_application.exe.manifest
+C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\attendance_application\obj\x86\Debug\attendance_application.application
+C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\attendance_application\obj\x86\Debug\attendance_application.exe
+C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\attendance_application\obj\x86\Debug\attendance_application.xml
+C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\attendance_application\obj\x86\Debug\attendance_application.pdb
+C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\attendance_application\bin\Debug\Guna.UI2.dll
+C:\Users\afola\documents\visual studio 2010\Projects\attendance_application\attendance_application\obj\x86\Debug\attendance_application.vbprojResolveAssemblyReference.cache
+C:\Users\afola\documents\visual studio 2010\Projects\attendance_application\attendance_application\obj\x86\Debug\attendance_application.index.resources
