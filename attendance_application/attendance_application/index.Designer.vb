@@ -30,22 +30,22 @@ Partial Class index
         Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.switchToggle = New Guna.UI2.WinForms.Guna2ToggleSwitch()
-        Me.Guna2TextBox2 = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
         Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
         Me.LineShape1 = New Microsoft.VisualBasic.PowerPacks.LineShape()
-        Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.backgroundImagePicBox = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2AnimateWindow1 = New Guna.UI2.WinForms.Guna2AnimateWindow(Me.components)
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.ShapeContainer2 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
         Me.LineShape2 = New Microsoft.VisualBasic.PowerPacks.LineShape()
+        Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Guna2TextBox2 = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.backgroundImagePicBox = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.form_container.SuspendLayout()
+        Me.Guna2Panel1.SuspendLayout()
         CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.backgroundImagePicBox, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Guna2Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'form_text
@@ -140,74 +140,6 @@ Partial Class index
         Me.switchToggle.UncheckedState.InnerColor = System.Drawing.Color.White
         Me.switchToggle.UncheckedState.Parent = Me.switchToggle
         '
-        'Guna2TextBox2
-        '
-        Me.Guna2TextBox2.BorderColor = System.Drawing.Color.Gray
-        Me.Guna2TextBox2.BorderThickness = 2
-        Me.Guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2TextBox2.DefaultText = ""
-        Me.Guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.Guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.Guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox2.DisabledState.Parent = Me.Guna2TextBox2
-        Me.Guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.SteelBlue
-        Me.Guna2TextBox2.FocusedState.Parent = Me.Guna2TextBox2
-        Me.Guna2TextBox2.FocusedState.PlaceholderForeColor = System.Drawing.Color.Black
-        Me.Guna2TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2TextBox2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox2.HoverState.ForeColor = System.Drawing.Color.Transparent
-        Me.Guna2TextBox2.HoverState.Parent = Me.Guna2TextBox2
-        Me.Guna2TextBox2.HoverState.PlaceholderForeColor = System.Drawing.Color.Transparent
-        Me.Guna2TextBox2.IconLeft = Global.attendance_application.My.Resources.Resources.icons8_password_48
-        Me.Guna2TextBox2.IconLeftSize = New System.Drawing.Size(18, 18)
-        Me.Guna2TextBox2.Location = New System.Drawing.Point(22, 168)
-        Me.Guna2TextBox2.Margin = New System.Windows.Forms.Padding(6)
-        Me.Guna2TextBox2.Name = "Guna2TextBox2"
-        Me.Guna2TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.Guna2TextBox2.PlaceholderForeColor = System.Drawing.Color.LightGray
-        Me.Guna2TextBox2.PlaceholderText = "Password"
-        Me.Guna2TextBox2.SelectedText = ""
-        Me.Guna2TextBox2.ShadowDecoration.Parent = Me.Guna2TextBox2
-        Me.Guna2TextBox2.Size = New System.Drawing.Size(353, 40)
-        Me.Guna2TextBox2.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material
-        Me.Guna2TextBox2.TabIndex = 4
-        '
-        'Guna2TextBox1
-        '
-        Me.Guna2TextBox1.BorderColor = System.Drawing.Color.Gray
-        Me.Guna2TextBox1.BorderThickness = 2
-        Me.Guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2TextBox1.DefaultText = ""
-        Me.Guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.Guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.Guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox1.DisabledState.Parent = Me.Guna2TextBox1
-        Me.Guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.SteelBlue
-        Me.Guna2TextBox1.FocusedState.Parent = Me.Guna2TextBox1
-        Me.Guna2TextBox1.FocusedState.PlaceholderForeColor = System.Drawing.Color.Black
-        Me.Guna2TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2TextBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox1.HoverState.ForeColor = System.Drawing.Color.Transparent
-        Me.Guna2TextBox1.HoverState.Parent = Me.Guna2TextBox1
-        Me.Guna2TextBox1.HoverState.PlaceholderForeColor = System.Drawing.Color.Transparent
-        Me.Guna2TextBox1.IconLeft = Global.attendance_application.My.Resources.Resources.icons8_email_24
-        Me.Guna2TextBox1.IconLeftSize = New System.Drawing.Size(18, 18)
-        Me.Guna2TextBox1.Location = New System.Drawing.Point(25, 86)
-        Me.Guna2TextBox1.Margin = New System.Windows.Forms.Padding(6)
-        Me.Guna2TextBox1.Name = "Guna2TextBox1"
-        Me.Guna2TextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.Guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.LightGray
-        Me.Guna2TextBox1.PlaceholderText = "Email Address"
-        Me.Guna2TextBox1.SelectedText = ""
-        Me.Guna2TextBox1.ShadowDecoration.Parent = Me.Guna2TextBox1
-        Me.Guna2TextBox1.Size = New System.Drawing.Size(353, 40)
-        Me.Guna2TextBox1.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material
-        Me.Guna2TextBox1.TabIndex = 2
-        '
         'ShapeContainer1
         '
         Me.ShapeContainer1.Location = New System.Drawing.Point(0, 0)
@@ -227,31 +159,6 @@ Partial Class index
         Me.LineShape1.X2 = 78
         Me.LineShape1.Y1 = 53
         Me.LineShape1.Y2 = 53
-        '
-        'Guna2PictureBox2
-        '
-        Me.Guna2PictureBox2.BackColor = System.Drawing.Color.White
-        Me.Guna2PictureBox2.Image = Global.attendance_application.My.Resources.Resources.feature
-        Me.Guna2PictureBox2.Location = New System.Drawing.Point(29, 38)
-        Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Me.Guna2PictureBox2.ShadowDecoration.Parent = Me.Guna2PictureBox2
-        Me.Guna2PictureBox2.Size = New System.Drawing.Size(326, 315)
-        Me.Guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox2.TabIndex = 2
-        Me.Guna2PictureBox2.TabStop = False
-        '
-        'backgroundImagePicBox
-        '
-        Me.backgroundImagePicBox.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.backgroundImagePicBox.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.backgroundImagePicBox.Image = Global.attendance_application.My.Resources.Resources._360_F_383390104_aTxmmJEIcGe4bPfYjR8lZLcPx5Duc0Y2
-        Me.backgroundImagePicBox.Location = New System.Drawing.Point(0, 0)
-        Me.backgroundImagePicBox.Name = "backgroundImagePicBox"
-        Me.backgroundImagePicBox.ShadowDecoration.Parent = Me.backgroundImagePicBox
-        Me.backgroundImagePicBox.Size = New System.Drawing.Size(797, 450)
-        Me.backgroundImagePicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.backgroundImagePicBox.TabIndex = 0
-        Me.backgroundImagePicBox.TabStop = False
         '
         'Guna2AnimateWindow1
         '
@@ -314,6 +221,101 @@ Partial Class index
         Me.LineShape2.Y1 = 11
         Me.LineShape2.Y2 = 11
         '
+        'Guna2PictureBox2
+        '
+        Me.Guna2PictureBox2.BackColor = System.Drawing.Color.White
+        Me.Guna2PictureBox2.Image = Global.attendance_application.My.Resources.Resources.feature
+        Me.Guna2PictureBox2.Location = New System.Drawing.Point(29, 38)
+        Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
+        Me.Guna2PictureBox2.ShadowDecoration.Parent = Me.Guna2PictureBox2
+        Me.Guna2PictureBox2.Size = New System.Drawing.Size(326, 315)
+        Me.Guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox2.TabIndex = 2
+        Me.Guna2PictureBox2.TabStop = False
+        '
+        'Guna2TextBox2
+        '
+        Me.Guna2TextBox2.BorderColor = System.Drawing.Color.Gray
+        Me.Guna2TextBox2.BorderThickness = 2
+        Me.Guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.Guna2TextBox2.DefaultText = ""
+        Me.Guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.Guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.Guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox2.DisabledState.Parent = Me.Guna2TextBox2
+        Me.Guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.SteelBlue
+        Me.Guna2TextBox2.FocusedState.Parent = Me.Guna2TextBox2
+        Me.Guna2TextBox2.FocusedState.PlaceholderForeColor = System.Drawing.Color.Black
+        Me.Guna2TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2TextBox2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox2.HoverState.ForeColor = System.Drawing.Color.Transparent
+        Me.Guna2TextBox2.HoverState.Parent = Me.Guna2TextBox2
+        Me.Guna2TextBox2.HoverState.PlaceholderForeColor = System.Drawing.Color.Transparent
+        Me.Guna2TextBox2.IconLeft = Global.attendance_application.My.Resources.Resources.icons8_password_48
+        Me.Guna2TextBox2.IconLeftSize = New System.Drawing.Size(18, 18)
+        Me.Guna2TextBox2.Location = New System.Drawing.Point(22, 168)
+        Me.Guna2TextBox2.Margin = New System.Windows.Forms.Padding(6)
+        Me.Guna2TextBox2.Name = "Guna2TextBox2"
+        Me.Guna2TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.Guna2TextBox2.PlaceholderForeColor = System.Drawing.Color.LightGray
+        Me.Guna2TextBox2.PlaceholderText = "Password"
+        Me.Guna2TextBox2.SelectedText = ""
+        Me.Guna2TextBox2.ShadowDecoration.Parent = Me.Guna2TextBox2
+        Me.Guna2TextBox2.Size = New System.Drawing.Size(353, 40)
+        Me.Guna2TextBox2.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material
+        Me.Guna2TextBox2.TabIndex = 4
+        Me.Guna2TextBox2.TextOffset = New System.Drawing.Point(10, 0)
+        '
+        'Guna2TextBox1
+        '
+        Me.Guna2TextBox1.BorderColor = System.Drawing.Color.Gray
+        Me.Guna2TextBox1.BorderThickness = 2
+        Me.Guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.Guna2TextBox1.DefaultText = ""
+        Me.Guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.Guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.Guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox1.DisabledState.Parent = Me.Guna2TextBox1
+        Me.Guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.SteelBlue
+        Me.Guna2TextBox1.FocusedState.Parent = Me.Guna2TextBox1
+        Me.Guna2TextBox1.FocusedState.PlaceholderForeColor = System.Drawing.Color.Black
+        Me.Guna2TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2TextBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox1.HoverState.ForeColor = System.Drawing.Color.Transparent
+        Me.Guna2TextBox1.HoverState.Parent = Me.Guna2TextBox1
+        Me.Guna2TextBox1.HoverState.PlaceholderForeColor = System.Drawing.Color.Transparent
+        Me.Guna2TextBox1.IconLeft = Global.attendance_application.My.Resources.Resources.icons8_email_24
+        Me.Guna2TextBox1.IconLeftSize = New System.Drawing.Size(18, 18)
+        Me.Guna2TextBox1.Location = New System.Drawing.Point(25, 86)
+        Me.Guna2TextBox1.Margin = New System.Windows.Forms.Padding(6)
+        Me.Guna2TextBox1.Name = "Guna2TextBox1"
+        Me.Guna2TextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.Guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.LightGray
+        Me.Guna2TextBox1.PlaceholderText = "Email Address"
+        Me.Guna2TextBox1.SelectedText = ""
+        Me.Guna2TextBox1.ShadowDecoration.Parent = Me.Guna2TextBox1
+        Me.Guna2TextBox1.Size = New System.Drawing.Size(353, 40)
+        Me.Guna2TextBox1.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material
+        Me.Guna2TextBox1.TabIndex = 2
+        Me.Guna2TextBox1.TextOffset = New System.Drawing.Point(10, 0)
+        '
+        'backgroundImagePicBox
+        '
+        Me.backgroundImagePicBox.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.backgroundImagePicBox.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.backgroundImagePicBox.Image = Global.attendance_application.My.Resources.Resources._360_F_383390104_aTxmmJEIcGe4bPfYjR8lZLcPx5Duc0Y2
+        Me.backgroundImagePicBox.Location = New System.Drawing.Point(0, 0)
+        Me.backgroundImagePicBox.Name = "backgroundImagePicBox"
+        Me.backgroundImagePicBox.ShadowDecoration.Parent = Me.backgroundImagePicBox
+        Me.backgroundImagePicBox.Size = New System.Drawing.Size(797, 450)
+        Me.backgroundImagePicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.backgroundImagePicBox.TabIndex = 0
+        Me.backgroundImagePicBox.TabStop = False
+        '
         'index
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -330,10 +332,10 @@ Partial Class index
         Me.Text = "TrackSmart App"
         Me.form_container.ResumeLayout(False)
         Me.form_container.PerformLayout()
-        CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.backgroundImagePicBox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2Panel1.ResumeLayout(False)
         Me.Guna2Panel1.PerformLayout()
+        CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.backgroundImagePicBox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

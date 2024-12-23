@@ -109,6 +109,24 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="enrollment\dashboardFormPage.Designer.vb">
+      <DependentUpon>dashboardFormPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="enrollment\dashboardFormPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enrollment\enrollmentFormPage.Designer.vb">
+      <DependentUpon>enrollmentFormPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="enrollment\enrollmentFormPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enrollment\enrollDashboard.Designer.vb">
+      <DependentUpon>enrollDashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="enrollment\enrollDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="myfunction.vb" />
     <Compile Include="index.vb">
       <SubType>Form</SubType>
@@ -134,6 +152,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="enrollment\dashboardFormPage.resx">
+      <DependentUpon>dashboardFormPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enrollment\enrollmentFormPage.resx">
+      <DependentUpon>enrollmentFormPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enrollment\enrollDashboard.resx">
+      <DependentUpon>enrollDashboard.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="index.resx">
       <DependentUpon>index.vb</DependentUpon>
     </EmbeddedResource>
@@ -237,6 +264,201 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\360_F_383390104_aTxmmJEIcGe4bPfYjR8lZLcPx5Duc0Y2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7eb9d30d10973827958a3f2f3bc9fc12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7eb9d30d10973827958a3f2f3bc9fc121.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock-vector-fingerprint-sign-illustration-vector-white-contour-icon-in-dark-cerulean-circle-at-white-background-isolated.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\04759c30920e1d39195c15fca1d6172e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7eb9d30d10973827958a3f2f3bc9fc122.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7eb9d30d10973827958a3f2f3bc9fc123.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dashboard-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dashboard-241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dashboard-24 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dashboard-24 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dashboard-24 %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-biometric-91 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-biometric-91.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-biometric-91 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-list-48 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-list-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-96 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-242.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-243.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-961.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-244.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-24 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-biometric-911.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-list-481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-24 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dashboard-242.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-biometric-91 %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-list-48 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-245.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dashboard-24 %281%293.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-biometric-912.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-list-482.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dashboard-243.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dashboard-24 %281%294.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-biometric-91 %282%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-biometric-913.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-biometric-914.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-list-48 %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-list-483.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-list-484.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-246.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-247.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-24 %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-sunshine-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-sunshine-241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-sunshine-24 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-sun-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-biometric-91 %282%293.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-biometric-91 %282%294.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-calendar-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-tear-off-calendar-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-schedule-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-start-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-date-to-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-date-from-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-list-48 %281%293.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-biometric-91 %282%295.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dashboard-244.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fingerprint_off_48dp_A3A4F9FC_FILL0_wght500_GRAD0_opsz48.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

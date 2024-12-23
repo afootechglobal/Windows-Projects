@@ -2,7 +2,7 @@
 
     Private Sub index_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         Me.Opacity = 0 ' Start with fully transparent
-        StartFadeIn(Me) ' Trigger fade-in effect, passing the current form
+        startFadeIn(Me) ' Trigger fade-in effect, passing the current form
     End Sub
 
 

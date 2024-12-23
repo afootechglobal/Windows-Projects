@@ -8,14 +8,14 @@
     <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="attendance_application.exe.manifest" size="4075">
+    <dependentAssembly dependencyType="install" codebase="attendance_application.exe.manifest" size="4076">
       <assemblyIdentity name="attendance_application.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="en-NG" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>ZaOeOitdZ5I0nQOP6x5u3xcs6+4=</dsig:DigestValue>
+        <dsig:DigestValue>5cVUlTVIjtlVKOfEjDyMNrooc1s=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

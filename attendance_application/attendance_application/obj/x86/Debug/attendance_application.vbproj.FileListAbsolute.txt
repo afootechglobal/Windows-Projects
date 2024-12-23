@@ -13,3 +13,6 @@ C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\atte
 C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\attendance_application\bin\Debug\Guna.UI2.dll
 C:\Users\afola\documents\visual studio 2010\Projects\attendance_application\attendance_application\obj\x86\Debug\attendance_application.vbprojResolveAssemblyReference.cache
 C:\Users\afola\documents\visual studio 2010\Projects\attendance_application\attendance_application\obj\x86\Debug\attendance_application.index.resources
+C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\attendance_application\obj\x86\Debug\attendance_application.enrollDashboard.resources
+C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\attendance_application\obj\x86\Debug\attendance_application.dashboardFormPage.resources
+C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\attendance_application\obj\x86\Debug\attendance_application.enrollmentFormPage.resources
