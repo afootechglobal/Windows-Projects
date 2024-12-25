@@ -23,6 +23,7 @@ Partial Class adminlogin_form
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Guna2GroupBox1 = New Guna.UI2.WinForms.Guna2GroupBox()
+        Me.closeBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.ForgotPass_Label = New System.Windows.Forms.Label()
         Me.loginUserBtn = New Guna.UI2.WinForms.Guna2Button()
@@ -30,7 +31,6 @@ Partial Class adminlogin_form
         Me.password_txt = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.email_txt = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.closeBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2GroupBox1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
@@ -40,15 +40,30 @@ Partial Class adminlogin_form
         Me.Guna2GroupBox1.Controls.Add(Me.closeBtn)
         Me.Guna2GroupBox1.Controls.Add(Me.GroupBox1)
         Me.Guna2GroupBox1.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(2, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(174, Byte), Integer))
-        Me.Guna2GroupBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2GroupBox1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
         Me.Guna2GroupBox1.ForeColor = System.Drawing.Color.White
         Me.Guna2GroupBox1.Location = New System.Drawing.Point(0, 0)
         Me.Guna2GroupBox1.Name = "Guna2GroupBox1"
         Me.Guna2GroupBox1.ShadowDecoration.Parent = Me.Guna2GroupBox1
-        Me.Guna2GroupBox1.Size = New System.Drawing.Size(542, 458)
+        Me.Guna2GroupBox1.Size = New System.Drawing.Size(516, 446)
         Me.Guna2GroupBox1.TabIndex = 1
         Me.Guna2GroupBox1.Text = "Admin Login"
+        '
+        'closeBtn
+        '
+        Me.closeBtn.CheckedState.Parent = Me.closeBtn
+        Me.closeBtn.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.closeBtn.CustomImages.Parent = Me.closeBtn
+        Me.closeBtn.FillColor = System.Drawing.Color.Maroon
+        Me.closeBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.closeBtn.ForeColor = System.Drawing.Color.White
+        Me.closeBtn.HoverState.Parent = Me.closeBtn
+        Me.closeBtn.Location = New System.Drawing.Point(489, 0)
+        Me.closeBtn.Name = "closeBtn"
+        Me.closeBtn.ShadowDecoration.Parent = Me.closeBtn
+        Me.closeBtn.Size = New System.Drawing.Size(53, 41)
+        Me.closeBtn.TabIndex = 0
+        Me.closeBtn.Text = "X"
         '
         'GroupBox1
         '
@@ -60,7 +75,7 @@ Partial Class adminlogin_form
         Me.GroupBox1.Controls.Add(Me.email_txt)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 47)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(518, 399)
+        Me.GroupBox1.Size = New System.Drawing.Size(530, 399)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Admin Login"
@@ -168,27 +183,11 @@ Partial Class adminlogin_form
         Me.email_txt.Size = New System.Drawing.Size(495, 45)
         Me.email_txt.TabIndex = 0
         '
-        'closeBtn
-        '
-        Me.closeBtn.CheckedState.Parent = Me.closeBtn
-        Me.closeBtn.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.closeBtn.CustomImages.Parent = Me.closeBtn
-        Me.closeBtn.FillColor = System.Drawing.Color.Maroon
-        Me.closeBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.closeBtn.ForeColor = System.Drawing.Color.White
-        Me.closeBtn.HoverState.Parent = Me.closeBtn
-        Me.closeBtn.Location = New System.Drawing.Point(489, 0)
-        Me.closeBtn.Name = "closeBtn"
-        Me.closeBtn.ShadowDecoration.Parent = Me.closeBtn
-        Me.closeBtn.Size = New System.Drawing.Size(53, 41)
-        Me.closeBtn.TabIndex = 0
-        Me.closeBtn.Text = "X"
-        '
         'adminlogin_form
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(542, 458)
+        Me.ClientSize = New System.Drawing.Size(567, 458)
         Me.Controls.Add(Me.Guna2GroupBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "adminlogin_form"

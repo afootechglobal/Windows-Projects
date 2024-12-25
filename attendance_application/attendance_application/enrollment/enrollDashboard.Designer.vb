@@ -34,6 +34,7 @@ Partial Class enrollDashboard
         Me.Label1 = New System.Windows.Forms.Label()
         Me.dashboardPanel = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2AnimateWindow1 = New Guna.UI2.WinForms.Guna2AnimateWindow(Me.components)
+        Me.verifyBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
         Me.enrollListBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.enrollBtn = New Guna.UI2.WinForms.Guna2Button()
@@ -82,6 +83,7 @@ Partial Class enrollDashboard
         '
         Me.Guna2GradientPanel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(229, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(233, Byte), Integer))
         Me.Guna2GradientPanel1.BorderRadius = 20
+        Me.Guna2GradientPanel1.Controls.Add(Me.verifyBtn)
         Me.Guna2GradientPanel1.Controls.Add(Me.Guna2Button3)
         Me.Guna2GradientPanel1.Controls.Add(Me.enrollListBtn)
         Me.Guna2GradientPanel1.Controls.Add(Me.enrollBtn)
@@ -92,7 +94,7 @@ Partial Class enrollDashboard
         Me.Guna2GradientPanel1.Location = New System.Drawing.Point(0, 150)
         Me.Guna2GradientPanel1.Name = "Guna2GradientPanel1"
         Me.Guna2GradientPanel1.ShadowDecoration.Parent = Me.Guna2GradientPanel1
-        Me.Guna2GradientPanel1.Size = New System.Drawing.Size(86, 401)
+        Me.Guna2GradientPanel1.Size = New System.Drawing.Size(86, 470)
         Me.Guna2GradientPanel1.TabIndex = 1
         '
         'Label3
@@ -129,7 +131,7 @@ Partial Class enrollDashboard
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.White
         Me.Label2.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.MidnightBlue
+        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(126, Byte), Integer))
         Me.Label2.Location = New System.Drawing.Point(1004, 39)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(79, 13)
@@ -171,12 +173,42 @@ Partial Class enrollDashboard
         Me.dashboardPanel.Size = New System.Drawing.Size(1016, 619)
         Me.dashboardPanel.TabIndex = 3
         '
+        'verifyBtn
+        '
+        Me.verifyBtn.BackColor = System.Drawing.Color.FromArgb(CType(CType(253, Byte), Integer), CType(CType(254, Byte), Integer), CType(CType(254, Byte), Integer))
+        Me.verifyBtn.CheckedState.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.verifyBtn.CheckedState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(126, Byte), Integer))
+        Me.verifyBtn.CheckedState.Image = Global.attendance_application.My.Resources.Resources.icons8_fingerprint_48__4_
+        Me.verifyBtn.CheckedState.Parent = Me.verifyBtn
+        Me.verifyBtn.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.verifyBtn.CustomImages.Parent = Me.verifyBtn
+        Me.verifyBtn.FillColor = System.Drawing.Color.White
+        Me.verifyBtn.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.verifyBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(249, Byte), Integer))
+        Me.verifyBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(253, Byte), Integer), CType(CType(254, Byte), Integer), CType(CType(254, Byte), Integer))
+        Me.verifyBtn.HoverState.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.verifyBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(126, Byte), Integer))
+        Me.verifyBtn.HoverState.Image = Global.attendance_application.My.Resources.Resources.icons8_fingerprint_48__4_1
+        Me.verifyBtn.HoverState.Parent = Me.verifyBtn
+        Me.verifyBtn.Image = Global.attendance_application.My.Resources.Resources.icons8_fingerprint_48__3_1
+        Me.verifyBtn.ImageOffset = New System.Drawing.Point(16, -10)
+        Me.verifyBtn.ImageSize = New System.Drawing.Size(35, 35)
+        Me.verifyBtn.Location = New System.Drawing.Point(7, 283)
+        Me.verifyBtn.Name = "verifyBtn"
+        Me.verifyBtn.PressedColor = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(249, Byte), Integer))
+        Me.verifyBtn.PressedDepth = 10
+        Me.verifyBtn.ShadowDecoration.Parent = Me.verifyBtn
+        Me.verifyBtn.Size = New System.Drawing.Size(72, 69)
+        Me.verifyBtn.TabIndex = 6
+        Me.verifyBtn.Text = "Verification"
+        Me.verifyBtn.TextOffset = New System.Drawing.Point(-10, 20)
+        '
         'Guna2Button3
         '
         Me.Guna2Button3.BackColor = System.Drawing.Color.FromArgb(CType(CType(253, Byte), Integer), CType(CType(254, Byte), Integer), CType(CType(254, Byte), Integer))
         Me.Guna2Button3.CheckedState.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button3.CheckedState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.Guna2Button3.CheckedState.Image = Global.attendance_application.My.Resources.Resources.icons8_logout_246
+        Me.Guna2Button3.CheckedState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(126, Byte), Integer))
+        Me.Guna2Button3.CheckedState.Image = Global.attendance_application.My.Resources.Resources.icons8_logout_481
         Me.Guna2Button3.CheckedState.Parent = Me.Guna2Button3
         Me.Guna2Button3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Guna2Button3.CustomImages.Parent = Me.Guna2Button3
@@ -185,15 +217,15 @@ Partial Class enrollDashboard
         Me.Guna2Button3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(249, Byte), Integer))
         Me.Guna2Button3.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(253, Byte), Integer), CType(CType(254, Byte), Integer), CType(CType(254, Byte), Integer))
         Me.Guna2Button3.HoverState.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button3.HoverState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.Guna2Button3.HoverState.Image = Global.attendance_application.My.Resources.Resources.icons8_logout_24__1_2
+        Me.Guna2Button3.HoverState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(126, Byte), Integer))
+        Me.Guna2Button3.HoverState.Image = Global.attendance_application.My.Resources.Resources.icons8_logout_48
         Me.Guna2Button3.HoverState.Parent = Me.Guna2Button3
-        Me.Guna2Button3.Image = Global.attendance_application.My.Resources.Resources.icons8_logout_247
+        Me.Guna2Button3.Image = Global.attendance_application.My.Resources.Resources.icons8_logout_48__1_
         Me.Guna2Button3.ImageOffset = New System.Drawing.Point(14, -10)
         Me.Guna2Button3.ImageSize = New System.Drawing.Size(35, 35)
-        Me.Guna2Button3.Location = New System.Drawing.Point(7, 309)
+        Me.Guna2Button3.Location = New System.Drawing.Point(6, 376)
         Me.Guna2Button3.Name = "Guna2Button3"
-        Me.Guna2Button3.PressedColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
+        Me.Guna2Button3.PressedColor = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(249, Byte), Integer))
         Me.Guna2Button3.PressedDepth = 10
         Me.Guna2Button3.ShadowDecoration.Parent = Me.Guna2Button3
         Me.Guna2Button3.Size = New System.Drawing.Size(72, 69)
@@ -205,8 +237,8 @@ Partial Class enrollDashboard
         '
         Me.enrollListBtn.BackColor = System.Drawing.Color.FromArgb(CType(CType(253, Byte), Integer), CType(CType(254, Byte), Integer), CType(CType(254, Byte), Integer))
         Me.enrollListBtn.CheckedState.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.enrollListBtn.CheckedState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.enrollListBtn.CheckedState.Image = Global.attendance_application.My.Resources.Resources.icons8_list_484
+        Me.enrollListBtn.CheckedState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(126, Byte), Integer))
+        Me.enrollListBtn.CheckedState.Image = Global.attendance_application.My.Resources.Resources.icons8_list_48__3_
         Me.enrollListBtn.CheckedState.Parent = Me.enrollListBtn
         Me.enrollListBtn.Cursor = System.Windows.Forms.Cursors.Hand
         Me.enrollListBtn.CustomImages.Parent = Me.enrollListBtn
@@ -215,15 +247,15 @@ Partial Class enrollDashboard
         Me.enrollListBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(249, Byte), Integer))
         Me.enrollListBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(253, Byte), Integer), CType(CType(254, Byte), Integer), CType(CType(254, Byte), Integer))
         Me.enrollListBtn.HoverState.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.enrollListBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.enrollListBtn.HoverState.Image = Global.attendance_application.My.Resources.Resources.icons8_list_483
+        Me.enrollListBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(126, Byte), Integer))
+        Me.enrollListBtn.HoverState.Image = Global.attendance_application.My.Resources.Resources.icons8_list_48__3_1
         Me.enrollListBtn.HoverState.Parent = Me.enrollListBtn
-        Me.enrollListBtn.Image = Global.attendance_application.My.Resources.Resources.icons8_list_48__1_2
+        Me.enrollListBtn.Image = Global.attendance_application.My.Resources.Resources.icons8_todo_list_48
         Me.enrollListBtn.ImageOffset = New System.Drawing.Point(16, -10)
         Me.enrollListBtn.ImageSize = New System.Drawing.Size(35, 35)
-        Me.enrollListBtn.Location = New System.Drawing.Point(7, 214)
+        Me.enrollListBtn.Location = New System.Drawing.Point(7, 194)
         Me.enrollListBtn.Name = "enrollListBtn"
-        Me.enrollListBtn.PressedColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
+        Me.enrollListBtn.PressedColor = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(249, Byte), Integer))
         Me.enrollListBtn.PressedDepth = 10
         Me.enrollListBtn.ShadowDecoration.Parent = Me.enrollListBtn
         Me.enrollListBtn.Size = New System.Drawing.Size(72, 69)
@@ -235,8 +267,8 @@ Partial Class enrollDashboard
         '
         Me.enrollBtn.BackColor = System.Drawing.Color.FromArgb(CType(CType(253, Byte), Integer), CType(CType(254, Byte), Integer), CType(CType(254, Byte), Integer))
         Me.enrollBtn.CheckedState.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.enrollBtn.CheckedState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.enrollBtn.CheckedState.Image = Global.attendance_application.My.Resources.Resources.icons8_biometric_914
+        Me.enrollBtn.CheckedState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(126, Byte), Integer))
+        Me.enrollBtn.CheckedState.Image = Global.attendance_application.My.Resources.Resources.icons8_fingerprint_48__1_
         Me.enrollBtn.CheckedState.Parent = Me.enrollBtn
         Me.enrollBtn.Cursor = System.Windows.Forms.Cursors.Hand
         Me.enrollBtn.CustomImages.Parent = Me.enrollBtn
@@ -245,15 +277,15 @@ Partial Class enrollDashboard
         Me.enrollBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(249, Byte), Integer))
         Me.enrollBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(253, Byte), Integer), CType(CType(254, Byte), Integer), CType(CType(254, Byte), Integer))
         Me.enrollBtn.HoverState.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.enrollBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.enrollBtn.HoverState.Image = Global.attendance_application.My.Resources.Resources.icons8_biometric_913
+        Me.enrollBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(126, Byte), Integer))
+        Me.enrollBtn.HoverState.Image = Global.attendance_application.My.Resources.Resources.icons8_fingerprint_48__1_1
         Me.enrollBtn.HoverState.Parent = Me.enrollBtn
-        Me.enrollBtn.Image = Global.attendance_application.My.Resources.Resources.icons8_biometric_91__2_2
+        Me.enrollBtn.Image = Global.attendance_application.My.Resources.Resources.icons8_fingerprint_48__2_
         Me.enrollBtn.ImageOffset = New System.Drawing.Point(16, -10)
         Me.enrollBtn.ImageSize = New System.Drawing.Size(35, 35)
-        Me.enrollBtn.Location = New System.Drawing.Point(7, 116)
+        Me.enrollBtn.Location = New System.Drawing.Point(7, 105)
         Me.enrollBtn.Name = "enrollBtn"
-        Me.enrollBtn.PressedColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
+        Me.enrollBtn.PressedColor = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(249, Byte), Integer))
         Me.enrollBtn.PressedDepth = 10
         Me.enrollBtn.ShadowDecoration.Parent = Me.enrollBtn
         Me.enrollBtn.Size = New System.Drawing.Size(72, 69)
@@ -265,8 +297,8 @@ Partial Class enrollDashboard
         '
         Me.dashboardBtn.BackColor = System.Drawing.Color.FromArgb(CType(CType(253, Byte), Integer), CType(CType(254, Byte), Integer), CType(CType(254, Byte), Integer))
         Me.dashboardBtn.CheckedState.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.dashboardBtn.CheckedState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.dashboardBtn.CheckedState.Image = Global.attendance_application.My.Resources.Resources.icons8_dashboard_24__1_4
+        Me.dashboardBtn.CheckedState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(126, Byte), Integer))
+        Me.dashboardBtn.CheckedState.Image = Global.attendance_application.My.Resources.Resources.icons8_dashboard_layout_48__1_
         Me.dashboardBtn.CheckedState.Parent = Me.dashboardBtn
         Me.dashboardBtn.Cursor = System.Windows.Forms.Cursors.Hand
         Me.dashboardBtn.CustomImages.Parent = Me.dashboardBtn
@@ -275,15 +307,15 @@ Partial Class enrollDashboard
         Me.dashboardBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(249, Byte), Integer))
         Me.dashboardBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(253, Byte), Integer), CType(CType(254, Byte), Integer), CType(CType(254, Byte), Integer))
         Me.dashboardBtn.HoverState.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.dashboardBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.dashboardBtn.HoverState.Image = Global.attendance_application.My.Resources.Resources.icons8_dashboard_24__1_4
+        Me.dashboardBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(126, Byte), Integer))
+        Me.dashboardBtn.HoverState.Image = Global.attendance_application.My.Resources.Resources.icons8_dashboard_layout_48__1_1
         Me.dashboardBtn.HoverState.Parent = Me.dashboardBtn
-        Me.dashboardBtn.Image = Global.attendance_application.My.Resources.Resources.icons8_dashboard_243
+        Me.dashboardBtn.Image = Global.attendance_application.My.Resources.Resources.icons8_dashboard_layout_48
         Me.dashboardBtn.ImageOffset = New System.Drawing.Point(16, -10)
         Me.dashboardBtn.ImageSize = New System.Drawing.Size(35, 35)
         Me.dashboardBtn.Location = New System.Drawing.Point(7, 17)
         Me.dashboardBtn.Name = "dashboardBtn"
-        Me.dashboardBtn.PressedColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
+        Me.dashboardBtn.PressedColor = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(164, Byte), Integer), CType(CType(249, Byte), Integer))
         Me.dashboardBtn.PressedDepth = 10
         Me.dashboardBtn.ShadowDecoration.Parent = Me.dashboardBtn
         Me.dashboardBtn.Size = New System.Drawing.Size(72, 69)
@@ -391,4 +423,5 @@ Partial Class enrollDashboard
     Friend WithEvents enrollListBtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents enrollBtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents dashboardPanel As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents verifyBtn As Guna.UI2.WinForms.Guna2Button
 End Class

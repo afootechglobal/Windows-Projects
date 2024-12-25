@@ -101,7 +101,7 @@ Partial Class index
         Me.Guna2Button1.FillColor = System.Drawing.Color.SteelBlue
         Me.Guna2Button1.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2Button1.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button1.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2Button1.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(126, Byte), Integer))
         Me.Guna2Button1.HoverState.Parent = Me.Guna2Button1
         Me.Guna2Button1.Location = New System.Drawing.Point(22, 270)
         Me.Guna2Button1.Name = "Guna2Button1"

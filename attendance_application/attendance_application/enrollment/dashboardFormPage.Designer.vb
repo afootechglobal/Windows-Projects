@@ -37,6 +37,7 @@ Partial Class dashboardFormPage
         Me.Guna2CustomGradientPanel8 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.Label19 = New System.Windows.Forms.Label()
+        Me.ShapeContainer2 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
         Me.LineShape3 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.LineShape1 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.Guna2CustomGradientPanel7 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
@@ -61,6 +62,8 @@ Partial Class dashboardFormPage
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2PictureBox8 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2PictureBox7 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2PictureBox6 = New Guna.UI2.WinForms.Guna2PictureBox()
@@ -68,7 +71,6 @@ Partial Class dashboardFormPage
         Me.Guna2PictureBox5 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.ShapeContainer2 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
         CType(Me.Guna2DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2CustomGradientPanel8.SuspendLayout()
         Me.Guna2CustomGradientPanel7.SuspendLayout()
@@ -77,6 +79,8 @@ Partial Class dashboardFormPage
         Me.Guna2CustomGradientPanel5.SuspendLayout()
         Me.Guna2CustomGradientPanel4.SuspendLayout()
         Me.Guna2CustomGradientPanel2.SuspendLayout()
+        Me.Guna2Panel1.SuspendLayout()
+        CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -102,7 +106,7 @@ Partial Class dashboardFormPage
         Me.Guna2DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
         Me.Guna2DataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
         DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(73, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(39, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(70, Byte), Integer))
         DataGridViewCellStyle2.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
         DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
@@ -136,7 +140,7 @@ Partial Class dashboardFormPage
         Me.Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty
         Me.Guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.Color.White
         Me.Guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(CType(CType(193, Byte), Integer), CType(CType(199, Byte), Integer), CType(CType(206, Byte), Integer))
-        Me.Guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(73, Byte), Integer), CType(CType(94, Byte), Integer))
+        Me.Guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(39, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(70, Byte), Integer))
         Me.Guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
         Me.Guna2DataGridView1.ThemeStyle.HeaderStyle.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White
@@ -218,6 +222,16 @@ Partial Class dashboardFormPage
         Me.Label19.Size = New System.Drawing.Size(60, 33)
         Me.Label19.TabIndex = 8
         Me.Label19.Text = "500"
+        '
+        'ShapeContainer2
+        '
+        Me.ShapeContainer2.Location = New System.Drawing.Point(0, 0)
+        Me.ShapeContainer2.Margin = New System.Windows.Forms.Padding(0)
+        Me.ShapeContainer2.Name = "ShapeContainer2"
+        Me.ShapeContainer2.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape3, Me.LineShape1})
+        Me.ShapeContainer2.Size = New System.Drawing.Size(276, 108)
+        Me.ShapeContainer2.TabIndex = 9
+        Me.ShapeContainer2.TabStop = False
         '
         'LineShape3
         '
@@ -447,7 +461,7 @@ Partial Class dashboardFormPage
         Me.Guna2Button1.CheckedState.Parent = Me.Guna2Button1
         Me.Guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Guna2Button1.CustomImages.Parent = Me.Guna2Button1
-        Me.Guna2Button1.FillColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
+        Me.Guna2Button1.FillColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(126, Byte), Integer))
         Me.Guna2Button1.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2Button1.ForeColor = System.Drawing.Color.White
         Me.Guna2Button1.HoverState.Parent = Me.Guna2Button1
@@ -510,13 +524,34 @@ Partial Class dashboardFormPage
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(229, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(233, Byte), Integer))
-        Me.Label1.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(0, 9)
+        Me.Label1.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(39, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(70, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(35, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(69, 16)
+        Me.Label1.Size = New System.Drawing.Size(78, 16)
         Me.Label1.TabIndex = 9
         Me.Label1.Text = "Dashboard"
+        '
+        'Guna2Panel1
+        '
+        Me.Guna2Panel1.Controls.Add(Me.Guna2PictureBox2)
+        Me.Guna2Panel1.Controls.Add(Me.Label1)
+        Me.Guna2Panel1.Location = New System.Drawing.Point(3, 4)
+        Me.Guna2Panel1.Name = "Guna2Panel1"
+        Me.Guna2Panel1.ShadowDecoration.Parent = Me.Guna2Panel1
+        Me.Guna2Panel1.Size = New System.Drawing.Size(155, 32)
+        Me.Guna2Panel1.TabIndex = 22
+        '
+        'Guna2PictureBox2
+        '
+        Me.Guna2PictureBox2.Image = Global.attendance_application.My.Resources.Resources.icons8_dashboard_layout_48__1_2
+        Me.Guna2PictureBox2.Location = New System.Drawing.Point(5, 5)
+        Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
+        Me.Guna2PictureBox2.ShadowDecoration.Parent = Me.Guna2PictureBox2
+        Me.Guna2PictureBox2.Size = New System.Drawing.Size(25, 24)
+        Me.Guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox2.TabIndex = 0
+        Me.Guna2PictureBox2.TabStop = False
         '
         'Guna2PictureBox8
         '
@@ -602,23 +637,13 @@ Partial Class dashboardFormPage
         Me.Guna2PictureBox1.TabIndex = 0
         Me.Guna2PictureBox1.TabStop = False
         '
-        'ShapeContainer2
-        '
-        Me.ShapeContainer2.Location = New System.Drawing.Point(0, 0)
-        Me.ShapeContainer2.Margin = New System.Windows.Forms.Padding(0)
-        Me.ShapeContainer2.Name = "ShapeContainer2"
-        Me.ShapeContainer2.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape3, Me.LineShape1})
-        Me.ShapeContainer2.Size = New System.Drawing.Size(276, 108)
-        Me.ShapeContainer2.TabIndex = 9
-        Me.ShapeContainer2.TabStop = False
-        '
         'dashboardFormPage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(229, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(233, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1016, 619)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Guna2Panel1)
         Me.Controls.Add(Me.Guna2DataGridView1)
         Me.Controls.Add(Me.Guna2CustomGradientPanel8)
         Me.Controls.Add(Me.Guna2CustomGradientPanel7)
@@ -647,6 +672,9 @@ Partial Class dashboardFormPage
         Me.Guna2CustomGradientPanel4.PerformLayout()
         Me.Guna2CustomGradientPanel2.ResumeLayout(False)
         Me.Guna2CustomGradientPanel2.PerformLayout()
+        Me.Guna2Panel1.ResumeLayout(False)
+        Me.Guna2Panel1.PerformLayout()
+        CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
@@ -655,7 +683,6 @@ Partial Class dashboardFormPage
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
     Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
@@ -701,4 +728,6 @@ Partial Class dashboardFormPage
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents ShapeContainer2 As Microsoft.VisualBasic.PowerPacks.ShapeContainer
+    Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
 End Class

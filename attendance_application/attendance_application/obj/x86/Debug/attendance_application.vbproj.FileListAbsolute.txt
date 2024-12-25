@@ -16,3 +16,8 @@ C:\Users\afola\documents\visual studio 2010\Projects\attendance_application\atte
 C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\attendance_application\obj\x86\Debug\attendance_application.enrollDashboard.resources
 C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\attendance_application\obj\x86\Debug\attendance_application.dashboardFormPage.resources
 C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\attendance_application\obj\x86\Debug\attendance_application.enrollmentFormPage.resources
+C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\attendance_application\obj\x86\Debug\attendance_application.overlay.resources
+C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\attendance_application\obj\x86\Debug\attendance_application.enrollListFormPage.resources
+C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\attendance_application\obj\x86\Debug\attendance_application.enrollListView.resources
+C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\attendance_application\obj\x86\Debug\attendance_application.verificationFormPage.resources
+C:\Users\afola\Documents\Visual Studio 2010\Projects\attendance_application\attendance_application\obj\x86\Debug\attendance_application.logoutForm.resources
