@@ -6,6 +6,7 @@ Imports System.IO
 Imports System.Data
 Imports System.Drawing
 Imports System.Text.RegularExpressions
+
 Public Class Enrollment
     Implements DPFP.Capture.EventHandler
 
@@ -23,6 +24,9 @@ Public Class Enrollment
     Dim arrimage() As Byte
     Dim DT As New DataTable
     Dim staff_id, user_id As String
+
+
+
 
     Private Sub Enrollment_Load_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         CenterToParent()
@@ -249,8 +253,6 @@ Public Class Enrollment
 
     End Sub
 
-  
-
     Public Sub ProcessEnroll(ByVal Sample As DPFP.Sample)
         Try
             DrawPicture(ConvertSampleToBitmap(Sample))
@@ -279,7 +281,6 @@ Public Class Enrollment
             MsgBox(ex.Message)
         End Try
     End Sub
-
     Protected Sub SetStatus(ByVal status)
         Try
             Invoke(New functioncall(AddressOf _SetStatus), status)
@@ -351,6 +352,9 @@ Public Class Enrollment
         Return Nothing
     End Function
 
+
+
+
     Public Sub EnrollmentReg()
         Dim msstream As New System.IO.MemoryStream()
         UserPictureBox.Image.Save(msstream, System.Drawing.Imaging.ImageFormat.Jpeg)
@@ -394,6 +398,7 @@ Public Class Enrollment
 
     End Sub
 
+
     Public Sub ClearOption()
         fullname_txt.Text = ""
         email_txt.Text = ""
@@ -405,4 +410,8 @@ Public Class Enrollment
     End Sub
 
 
+
+    Private Sub Guna2GroupBox1_Click(sender As System.Object, e As System.EventArgs) Handles Guna2GroupBox1.Click
+
+    End Sub
 End Class

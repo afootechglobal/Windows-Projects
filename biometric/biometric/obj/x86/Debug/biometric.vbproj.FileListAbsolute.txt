@@ -81,3 +81,4 @@ D:\my-projects\Windows-Projects\biometric\biometric\bin\Debug\biometric.applicat
 D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\biometric.TrustInfo.xml
 D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\biometric.exe.manifest
 D:\my-projects\Windows-Projects\biometric\biometric\obj\x86\Debug\biometric.application
+D:\my-projects\Windows-Projects\biometric\biometric\bin\Debug\mysql.data.dll

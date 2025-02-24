@@ -236,7 +236,7 @@ Public Class verification
         Return Nothing
     End Function
 
-    Private Function ClearOption()
+    Private Sub ClearOption()
         fullname_txt.Text = ""
         email_txt.Text = ""
         mobile_txt.Text = ""
@@ -245,11 +245,18 @@ Public Class verification
         UserPicturebox.Image = Nothing
         FptPictureBox.Image = Nothing
         SetStatus("")
-    End Function
+    End Sub
 
   
 
 
 
     
+    Private Sub FptPictureBox_Click(sender As System.Object, e As System.EventArgs) Handles FptPictureBox.Click
+
+    End Sub
+
+    Private Sub Guna2GroupBox1_Click(sender As System.Object, e As System.EventArgs) Handles Guna2GroupBox1.Click
+
+    End Sub
 End Class

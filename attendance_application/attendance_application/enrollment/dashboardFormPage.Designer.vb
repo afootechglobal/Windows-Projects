@@ -40,54 +40,55 @@ Partial Class dashboardFormPage
         Me.ShapeContainer2 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
         Me.LineShape3 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.LineShape1 = New Microsoft.VisualBasic.PowerPacks.LineShape()
+        Me.Guna2PictureBox8 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2CustomGradientPanel7 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
+        Me.Guna2PictureBox7 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2CustomGradientPanel6 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
+        Me.Guna2PictureBox6 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2CustomGradientPanel3 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
+        Me.Guna2PictureBox4 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2CustomGradientPanel5 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
+        Me.Guna2PictureBox5 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2CustomGradientPanel4 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
+        Me.Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2CustomGradientPanel2 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
         Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Label7 = New System.Windows.Forms.Label()
+        Me.date_label = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.time_label = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2PictureBox8 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2PictureBox7 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2PictureBox6 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2PictureBox4 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2PictureBox5 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.Guna2DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2CustomGradientPanel8.SuspendLayout()
+        CType(Me.Guna2PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2CustomGradientPanel7.SuspendLayout()
+        CType(Me.Guna2PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2CustomGradientPanel6.SuspendLayout()
+        CType(Me.Guna2PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2CustomGradientPanel3.SuspendLayout()
+        CType(Me.Guna2PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2CustomGradientPanel5.SuspendLayout()
+        CType(Me.Guna2PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2CustomGradientPanel4.SuspendLayout()
+        CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2CustomGradientPanel2.SuspendLayout()
+        CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2Panel1.SuspendLayout()
         CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Guna2PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Guna2PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Guna2PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Guna2PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Guna2PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Guna2Elipse1
@@ -253,6 +254,18 @@ Partial Class dashboardFormPage
         Me.LineShape1.Y1 = 53
         Me.LineShape1.Y2 = 29
         '
+        'Guna2PictureBox8
+        '
+        Me.Guna2PictureBox8.BackColor = System.Drawing.Color.White
+        Me.Guna2PictureBox8.Image = Global.tracksmart_application.My.Resources.Resources.icons8_biometric_91__2_4
+        Me.Guna2PictureBox8.Location = New System.Drawing.Point(205, 20)
+        Me.Guna2PictureBox8.Name = "Guna2PictureBox8"
+        Me.Guna2PictureBox8.ShadowDecoration.Parent = Me.Guna2PictureBox8
+        Me.Guna2PictureBox8.Size = New System.Drawing.Size(46, 44)
+        Me.Guna2PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox8.TabIndex = 8
+        Me.Guna2PictureBox8.TabStop = False
+        '
         'Guna2CustomGradientPanel7
         '
         Me.Guna2CustomGradientPanel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(229, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(233, Byte), Integer))
@@ -289,6 +302,18 @@ Partial Class dashboardFormPage
         Me.Label17.Size = New System.Drawing.Size(169, 33)
         Me.Label17.TabIndex = 8
         Me.Label17.Text = "Oct 20, 2025"
+        '
+        'Guna2PictureBox7
+        '
+        Me.Guna2PictureBox7.BackColor = System.Drawing.Color.White
+        Me.Guna2PictureBox7.Image = Global.tracksmart_application.My.Resources.Resources.icons8_date_to_80
+        Me.Guna2PictureBox7.Location = New System.Drawing.Point(205, 20)
+        Me.Guna2PictureBox7.Name = "Guna2PictureBox7"
+        Me.Guna2PictureBox7.ShadowDecoration.Parent = Me.Guna2PictureBox7
+        Me.Guna2PictureBox7.Size = New System.Drawing.Size(46, 44)
+        Me.Guna2PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox7.TabIndex = 8
+        Me.Guna2PictureBox7.TabStop = False
         '
         'Guna2CustomGradientPanel6
         '
@@ -327,6 +352,18 @@ Partial Class dashboardFormPage
         Me.Label15.TabIndex = 8
         Me.Label15.Text = "1st Semester"
         '
+        'Guna2PictureBox6
+        '
+        Me.Guna2PictureBox6.BackColor = System.Drawing.Color.White
+        Me.Guna2PictureBox6.Image = Global.tracksmart_application.My.Resources.Resources.icons8_schedule_50
+        Me.Guna2PictureBox6.Location = New System.Drawing.Point(205, 20)
+        Me.Guna2PictureBox6.Name = "Guna2PictureBox6"
+        Me.Guna2PictureBox6.ShadowDecoration.Parent = Me.Guna2PictureBox6
+        Me.Guna2PictureBox6.Size = New System.Drawing.Size(46, 44)
+        Me.Guna2PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox6.TabIndex = 8
+        Me.Guna2PictureBox6.TabStop = False
+        '
         'Guna2CustomGradientPanel3
         '
         Me.Guna2CustomGradientPanel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(229, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(233, Byte), Integer))
@@ -363,6 +400,18 @@ Partial Class dashboardFormPage
         Me.Label11.Size = New System.Drawing.Size(145, 33)
         Me.Label11.TabIndex = 8
         Me.Label11.Text = "2023/2024"
+        '
+        'Guna2PictureBox4
+        '
+        Me.Guna2PictureBox4.BackColor = System.Drawing.Color.White
+        Me.Guna2PictureBox4.Image = Global.tracksmart_application.My.Resources.Resources.icons8_tear_off_calendar_50
+        Me.Guna2PictureBox4.Location = New System.Drawing.Point(205, 20)
+        Me.Guna2PictureBox4.Name = "Guna2PictureBox4"
+        Me.Guna2PictureBox4.ShadowDecoration.Parent = Me.Guna2PictureBox4
+        Me.Guna2PictureBox4.Size = New System.Drawing.Size(46, 44)
+        Me.Guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox4.TabIndex = 8
+        Me.Guna2PictureBox4.TabStop = False
         '
         'Guna2CustomGradientPanel5
         '
@@ -401,6 +450,18 @@ Partial Class dashboardFormPage
         Me.Label13.TabIndex = 8
         Me.Label13.Text = "Jan 14, 2025"
         '
+        'Guna2PictureBox5
+        '
+        Me.Guna2PictureBox5.BackColor = System.Drawing.Color.White
+        Me.Guna2PictureBox5.Image = Global.tracksmart_application.My.Resources.Resources.icons8_date_from_80
+        Me.Guna2PictureBox5.Location = New System.Drawing.Point(205, 20)
+        Me.Guna2PictureBox5.Name = "Guna2PictureBox5"
+        Me.Guna2PictureBox5.ShadowDecoration.Parent = Me.Guna2PictureBox5
+        Me.Guna2PictureBox5.Size = New System.Drawing.Size(46, 44)
+        Me.Guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox5.TabIndex = 8
+        Me.Guna2PictureBox5.TabStop = False
+        '
         'Guna2CustomGradientPanel4
         '
         Me.Guna2CustomGradientPanel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(229, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(233, Byte), Integer))
@@ -438,16 +499,28 @@ Partial Class dashboardFormPage
         Me.Label8.TabIndex = 8
         Me.Label8.Text = "300"
         '
+        'Guna2PictureBox3
+        '
+        Me.Guna2PictureBox3.BackColor = System.Drawing.Color.White
+        Me.Guna2PictureBox3.Image = Global.tracksmart_application.My.Resources.Resources.icons8_biometric_91__2_4
+        Me.Guna2PictureBox3.Location = New System.Drawing.Point(205, 20)
+        Me.Guna2PictureBox3.Name = "Guna2PictureBox3"
+        Me.Guna2PictureBox3.ShadowDecoration.Parent = Me.Guna2PictureBox3
+        Me.Guna2PictureBox3.Size = New System.Drawing.Size(46, 44)
+        Me.Guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox3.TabIndex = 8
+        Me.Guna2PictureBox3.TabStop = False
+        '
         'Guna2CustomGradientPanel2
         '
         Me.Guna2CustomGradientPanel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(229, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(233, Byte), Integer))
         Me.Guna2CustomGradientPanel2.BorderRadius = 20
         Me.Guna2CustomGradientPanel2.Controls.Add(Me.Guna2Button1)
-        Me.Guna2CustomGradientPanel2.Controls.Add(Me.Label7)
+        Me.Guna2CustomGradientPanel2.Controls.Add(Me.date_label)
         Me.Guna2CustomGradientPanel2.Controls.Add(Me.Label6)
         Me.Guna2CustomGradientPanel2.Controls.Add(Me.Label5)
         Me.Guna2CustomGradientPanel2.Controls.Add(Me.Guna2PictureBox1)
-        Me.Guna2CustomGradientPanel2.Controls.Add(Me.Label4)
+        Me.Guna2CustomGradientPanel2.Controls.Add(Me.time_label)
         Me.Guna2CustomGradientPanel2.Location = New System.Drawing.Point(4, 57)
         Me.Guna2CustomGradientPanel2.Name = "Guna2CustomGradientPanel2"
         Me.Guna2CustomGradientPanel2.ShadowDecoration.Parent = Me.Guna2CustomGradientPanel2
@@ -472,17 +545,16 @@ Partial Class dashboardFormPage
         Me.Guna2Button1.TabIndex = 7
         Me.Guna2Button1.Text = "Start Enroll"
         '
-        'Label7
+        'date_label
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.BackColor = System.Drawing.Color.White
-        Me.Label7.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(80, Byte), Integer))
-        Me.Label7.Location = New System.Drawing.Point(28, 149)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(183, 19)
-        Me.Label7.TabIndex = 6
-        Me.Label7.Text = "18th December, 2024"
+        Me.date_label.AutoSize = True
+        Me.date_label.BackColor = System.Drawing.Color.White
+        Me.date_label.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.date_label.ForeColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(80, Byte), Integer))
+        Me.date_label.Location = New System.Drawing.Point(28, 149)
+        Me.date_label.Name = "date_label"
+        Me.date_label.Size = New System.Drawing.Size(0, 19)
+        Me.date_label.TabIndex = 6
         '
         'Label6
         '
@@ -508,17 +580,29 @@ Partial Class dashboardFormPage
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "Realtime Insight"
         '
-        'Label4
+        'Guna2PictureBox1
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.Color.White
-        Me.Label4.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(136, Byte), Integer), CType(CType(136, Byte), Integer), CType(CType(136, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(104, 41)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(102, 38)
-        Me.Label4.TabIndex = 3
-        Me.Label4.Text = "8:02:24 AM" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Guna2PictureBox1.BackColor = System.Drawing.Color.White
+        Me.Guna2PictureBox1.Image = Global.tracksmart_application.My.Resources.Resources.icons8_sun_50
+        Me.Guna2PictureBox1.Location = New System.Drawing.Point(31, 25)
+        Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
+        Me.Guna2PictureBox1.ShadowDecoration.Parent = Me.Guna2PictureBox1
+        Me.Guna2PictureBox1.Size = New System.Drawing.Size(70, 69)
+        Me.Guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox1.TabIndex = 0
+        Me.Guna2PictureBox1.TabStop = False
+        '
+        'time_label
+        '
+        Me.time_label.AutoSize = True
+        Me.time_label.BackColor = System.Drawing.Color.White
+        Me.time_label.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.time_label.ForeColor = System.Drawing.Color.FromArgb(CType(CType(136, Byte), Integer), CType(CType(136, Byte), Integer), CType(CType(136, Byte), Integer))
+        Me.time_label.Location = New System.Drawing.Point(104, 41)
+        Me.time_label.Name = "time_label"
+        Me.time_label.Size = New System.Drawing.Size(81, 19)
+        Me.time_label.TabIndex = 3
+        Me.time_label.Text = "00:00:00"
         '
         'Label1
         '
@@ -544,7 +628,7 @@ Partial Class dashboardFormPage
         '
         'Guna2PictureBox2
         '
-        Me.Guna2PictureBox2.Image = Global.attendance_application.My.Resources.Resources.icons8_dashboard_layout_48__1_2
+        Me.Guna2PictureBox2.Image = Global.tracksmart_application.My.Resources.Resources.icons8_dashboard_layout_48__1_2
         Me.Guna2PictureBox2.Location = New System.Drawing.Point(5, 5)
         Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
         Me.Guna2PictureBox2.ShadowDecoration.Parent = Me.Guna2PictureBox2
@@ -553,89 +637,9 @@ Partial Class dashboardFormPage
         Me.Guna2PictureBox2.TabIndex = 0
         Me.Guna2PictureBox2.TabStop = False
         '
-        'Guna2PictureBox8
+        'Timer1
         '
-        Me.Guna2PictureBox8.BackColor = System.Drawing.Color.White
-        Me.Guna2PictureBox8.Image = Global.attendance_application.My.Resources.Resources.icons8_biometric_91__2_4
-        Me.Guna2PictureBox8.Location = New System.Drawing.Point(205, 20)
-        Me.Guna2PictureBox8.Name = "Guna2PictureBox8"
-        Me.Guna2PictureBox8.ShadowDecoration.Parent = Me.Guna2PictureBox8
-        Me.Guna2PictureBox8.Size = New System.Drawing.Size(46, 44)
-        Me.Guna2PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox8.TabIndex = 8
-        Me.Guna2PictureBox8.TabStop = False
-        '
-        'Guna2PictureBox7
-        '
-        Me.Guna2PictureBox7.BackColor = System.Drawing.Color.White
-        Me.Guna2PictureBox7.Image = Global.attendance_application.My.Resources.Resources.icons8_date_to_80
-        Me.Guna2PictureBox7.Location = New System.Drawing.Point(205, 20)
-        Me.Guna2PictureBox7.Name = "Guna2PictureBox7"
-        Me.Guna2PictureBox7.ShadowDecoration.Parent = Me.Guna2PictureBox7
-        Me.Guna2PictureBox7.Size = New System.Drawing.Size(46, 44)
-        Me.Guna2PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox7.TabIndex = 8
-        Me.Guna2PictureBox7.TabStop = False
-        '
-        'Guna2PictureBox6
-        '
-        Me.Guna2PictureBox6.BackColor = System.Drawing.Color.White
-        Me.Guna2PictureBox6.Image = Global.attendance_application.My.Resources.Resources.icons8_schedule_50
-        Me.Guna2PictureBox6.Location = New System.Drawing.Point(205, 20)
-        Me.Guna2PictureBox6.Name = "Guna2PictureBox6"
-        Me.Guna2PictureBox6.ShadowDecoration.Parent = Me.Guna2PictureBox6
-        Me.Guna2PictureBox6.Size = New System.Drawing.Size(46, 44)
-        Me.Guna2PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox6.TabIndex = 8
-        Me.Guna2PictureBox6.TabStop = False
-        '
-        'Guna2PictureBox4
-        '
-        Me.Guna2PictureBox4.BackColor = System.Drawing.Color.White
-        Me.Guna2PictureBox4.Image = Global.attendance_application.My.Resources.Resources.icons8_tear_off_calendar_50
-        Me.Guna2PictureBox4.Location = New System.Drawing.Point(205, 20)
-        Me.Guna2PictureBox4.Name = "Guna2PictureBox4"
-        Me.Guna2PictureBox4.ShadowDecoration.Parent = Me.Guna2PictureBox4
-        Me.Guna2PictureBox4.Size = New System.Drawing.Size(46, 44)
-        Me.Guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox4.TabIndex = 8
-        Me.Guna2PictureBox4.TabStop = False
-        '
-        'Guna2PictureBox5
-        '
-        Me.Guna2PictureBox5.BackColor = System.Drawing.Color.White
-        Me.Guna2PictureBox5.Image = Global.attendance_application.My.Resources.Resources.icons8_date_from_80
-        Me.Guna2PictureBox5.Location = New System.Drawing.Point(205, 20)
-        Me.Guna2PictureBox5.Name = "Guna2PictureBox5"
-        Me.Guna2PictureBox5.ShadowDecoration.Parent = Me.Guna2PictureBox5
-        Me.Guna2PictureBox5.Size = New System.Drawing.Size(46, 44)
-        Me.Guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox5.TabIndex = 8
-        Me.Guna2PictureBox5.TabStop = False
-        '
-        'Guna2PictureBox3
-        '
-        Me.Guna2PictureBox3.BackColor = System.Drawing.Color.White
-        Me.Guna2PictureBox3.Image = Global.attendance_application.My.Resources.Resources.icons8_biometric_91__2_4
-        Me.Guna2PictureBox3.Location = New System.Drawing.Point(205, 20)
-        Me.Guna2PictureBox3.Name = "Guna2PictureBox3"
-        Me.Guna2PictureBox3.ShadowDecoration.Parent = Me.Guna2PictureBox3
-        Me.Guna2PictureBox3.Size = New System.Drawing.Size(46, 44)
-        Me.Guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox3.TabIndex = 8
-        Me.Guna2PictureBox3.TabStop = False
-        '
-        'Guna2PictureBox1
-        '
-        Me.Guna2PictureBox1.BackColor = System.Drawing.Color.White
-        Me.Guna2PictureBox1.Image = Global.attendance_application.My.Resources.Resources.icons8_sun_50
-        Me.Guna2PictureBox1.Location = New System.Drawing.Point(31, 25)
-        Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Me.Guna2PictureBox1.ShadowDecoration.Parent = Me.Guna2PictureBox1
-        Me.Guna2PictureBox1.Size = New System.Drawing.Size(70, 69)
-        Me.Guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox1.TabIndex = 0
-        Me.Guna2PictureBox1.TabStop = False
+        Me.Timer1.Enabled = True
         '
         'dashboardFormPage
         '
@@ -660,28 +664,28 @@ Partial Class dashboardFormPage
         CType(Me.Guna2DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2CustomGradientPanel8.ResumeLayout(False)
         Me.Guna2CustomGradientPanel8.PerformLayout()
+        CType(Me.Guna2PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2CustomGradientPanel7.ResumeLayout(False)
         Me.Guna2CustomGradientPanel7.PerformLayout()
+        CType(Me.Guna2PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2CustomGradientPanel6.ResumeLayout(False)
         Me.Guna2CustomGradientPanel6.PerformLayout()
+        CType(Me.Guna2PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2CustomGradientPanel3.ResumeLayout(False)
         Me.Guna2CustomGradientPanel3.PerformLayout()
+        CType(Me.Guna2PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2CustomGradientPanel5.ResumeLayout(False)
         Me.Guna2CustomGradientPanel5.PerformLayout()
+        CType(Me.Guna2PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2CustomGradientPanel4.ResumeLayout(False)
         Me.Guna2CustomGradientPanel4.PerformLayout()
+        CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2CustomGradientPanel2.ResumeLayout(False)
         Me.Guna2CustomGradientPanel2.PerformLayout()
+        CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2Panel1.ResumeLayout(False)
         Me.Guna2Panel1.PerformLayout()
         CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Guna2PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Guna2PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Guna2PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Guna2PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Guna2PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -721,13 +725,14 @@ Partial Class dashboardFormPage
     Friend WithEvents Guna2PictureBox3 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents Guna2CustomGradientPanel2 As Guna.UI2.WinForms.Guna2CustomGradientPanel
     Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents date_label As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Guna2PictureBox1 As Guna.UI2.WinForms.Guna2PictureBox
-    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents time_label As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents ShapeContainer2 As Microsoft.VisualBasic.PowerPacks.ShapeContainer
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
+    Friend WithEvents Timer1 As System.Windows.Forms.Timer
 End Class

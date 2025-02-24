@@ -71,7 +71,7 @@ Partial Class Enrollment
         Me.Guna2GroupBox1.Location = New System.Drawing.Point(0, 0)
         Me.Guna2GroupBox1.Name = "Guna2GroupBox1"
         Me.Guna2GroupBox1.ShadowDecoration.Parent = Me.Guna2GroupBox1
-        Me.Guna2GroupBox1.Size = New System.Drawing.Size(1105, 533)
+        Me.Guna2GroupBox1.Size = New System.Drawing.Size(1105, 521)
         Me.Guna2GroupBox1.TabIndex = 0
         Me.Guna2GroupBox1.Text = "User Biometric Enrollment"
         '

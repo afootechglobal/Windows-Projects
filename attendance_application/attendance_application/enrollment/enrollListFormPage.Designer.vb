@@ -135,7 +135,7 @@ Partial Class enrollListFormPage
         '
         'Guna2PictureBox2
         '
-        Me.Guna2PictureBox2.Image = Global.attendance_application.My.Resources.Resources.icons8_todo_list_481
+        Me.Guna2PictureBox2.Image = Global.tracksmart_application.My.Resources.Resources.icons8_todo_list_481
         Me.Guna2PictureBox2.Location = New System.Drawing.Point(5, 5)
         Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
         Me.Guna2PictureBox2.ShadowDecoration.Parent = Me.Guna2PictureBox2

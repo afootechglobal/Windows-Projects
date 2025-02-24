@@ -64,4 +64,8 @@ Public Class adminlogin_form
     Private Sub GroupBox1_Enter(sender As System.Object, e As System.EventArgs) Handles GroupBox1.Enter
 
     End Sub
+
+    Private Sub adminlogin_form_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

@@ -23,10 +23,10 @@ Partial Class logoutForm
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Guna2GroupBox1 = New Guna.UI2.WinForms.Guna2GroupBox()
+        Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.logoutNoBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.logoutYesBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2CirclePictureBox1 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Guna2GroupBox1.SuspendLayout()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -53,12 +53,24 @@ Partial Class logoutForm
         Me.Guna2GroupBox1.Text = "LOG-OUT"
         Me.Guna2GroupBox1.TextOffset = New System.Drawing.Point(50, 0)
         '
+        'Guna2PictureBox1
+        '
+        Me.Guna2PictureBox1.Image = Global.tracksmart_application.My.Resources.Resources.icons8_logout_483
+        Me.Guna2PictureBox1.Location = New System.Drawing.Point(15, 5)
+        Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
+        Me.Guna2PictureBox1.ShadowDecoration.Parent = Me.Guna2PictureBox1
+        Me.Guna2PictureBox1.Size = New System.Drawing.Size(41, 30)
+        Me.Guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Guna2PictureBox1.TabIndex = 4
+        Me.Guna2PictureBox1.TabStop = False
+        '
         'logoutNoBtn
         '
         Me.logoutNoBtn.AutoRoundedCorners = True
         Me.logoutNoBtn.BackColor = System.Drawing.Color.White
         Me.logoutNoBtn.BorderRadius = 21
         Me.logoutNoBtn.CheckedState.Parent = Me.logoutNoBtn
+        Me.logoutNoBtn.Cursor = System.Windows.Forms.Cursors.Hand
         Me.logoutNoBtn.CustomImages.Parent = Me.logoutNoBtn
         Me.logoutNoBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(132, Byte), Integer), CType(CType(73, Byte), Integer))
         Me.logoutNoBtn.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -77,6 +89,7 @@ Partial Class logoutForm
         Me.logoutYesBtn.BackColor = System.Drawing.Color.White
         Me.logoutYesBtn.BorderRadius = 21
         Me.logoutYesBtn.CheckedState.Parent = Me.logoutYesBtn
+        Me.logoutYesBtn.Cursor = System.Windows.Forms.Cursors.Hand
         Me.logoutYesBtn.CustomImages.Parent = Me.logoutYesBtn
         Me.logoutYesBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(203, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(53, Byte), Integer))
         Me.logoutYesBtn.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -101,21 +114,10 @@ Partial Class logoutForm
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Are you sure you want to log-out?"
         '
-        'Guna2PictureBox1
-        '
-        Me.Guna2PictureBox1.Image = Global.attendance_application.My.Resources.Resources.icons8_logout_483
-        Me.Guna2PictureBox1.Location = New System.Drawing.Point(15, 5)
-        Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Me.Guna2PictureBox1.ShadowDecoration.Parent = Me.Guna2PictureBox1
-        Me.Guna2PictureBox1.Size = New System.Drawing.Size(41, 30)
-        Me.Guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.Guna2PictureBox1.TabIndex = 4
-        Me.Guna2PictureBox1.TabStop = False
-        '
         'Guna2CirclePictureBox1
         '
         Me.Guna2CirclePictureBox1.BackColor = System.Drawing.Color.White
-        Me.Guna2CirclePictureBox1.Image = Global.attendance_application.My.Resources.Resources.question
+        Me.Guna2CirclePictureBox1.Image = Global.tracksmart_application.My.Resources.Resources.question
         Me.Guna2CirclePictureBox1.Location = New System.Drawing.Point(138, 71)
         Me.Guna2CirclePictureBox1.Name = "Guna2CirclePictureBox1"
         Me.Guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle

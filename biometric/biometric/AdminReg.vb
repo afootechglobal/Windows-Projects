@@ -215,7 +215,9 @@ Public Class AdminReg
                         RoleComboBox.DataSource = datatable
                     End Using
                 End If
+                Return roleId
             End If
+
         Catch ex As Exception
             MsgBox("An error occurred: " & ex.Message)
         End Try

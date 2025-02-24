@@ -23,14 +23,14 @@ Partial Class enrollListView
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Guna2GroupBox1 = New Guna.UI2.WinForms.Guna2GroupBox()
+        Me.closeEnrollBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.viewEnrollListbtn = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2ComboBox1 = New Guna.UI2.WinForms.Guna2ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
         Me.RectangleShape1 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
-        Me.closeEnrollBtn = New Guna.UI2.WinForms.Guna2Button()
-        Me.viewEnrollListbtn = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -56,6 +56,22 @@ Partial Class enrollListView
         Me.Guna2GroupBox1.TabIndex = 0
         Me.Guna2GroupBox1.Text = "ENROLL LIST VIEW"
         '
+        'closeEnrollBtn
+        '
+        Me.closeEnrollBtn.CheckedState.Parent = Me.closeEnrollBtn
+        Me.closeEnrollBtn.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.closeEnrollBtn.CustomImages.Parent = Me.closeEnrollBtn
+        Me.closeEnrollBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.closeEnrollBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.closeEnrollBtn.ForeColor = System.Drawing.Color.White
+        Me.closeEnrollBtn.HoverState.Parent = Me.closeEnrollBtn
+        Me.closeEnrollBtn.Image = Global.tracksmart_application.My.Resources.Resources.icons8_close_30
+        Me.closeEnrollBtn.Location = New System.Drawing.Point(435, 3)
+        Me.closeEnrollBtn.Name = "closeEnrollBtn"
+        Me.closeEnrollBtn.ShadowDecoration.Parent = Me.closeEnrollBtn
+        Me.closeEnrollBtn.Size = New System.Drawing.Size(40, 31)
+        Me.closeEnrollBtn.TabIndex = 12
+        '
         'Label3
         '
         Me.Label3.AutoSize = True
@@ -79,6 +95,27 @@ Partial Class enrollListView
         Me.Label2.Size = New System.Drawing.Size(98, 16)
         Me.Label2.TabIndex = 9
         Me.Label2.Text = "SELECT LEVEL:"
+        '
+        'viewEnrollListbtn
+        '
+        Me.viewEnrollListbtn.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.viewEnrollListbtn.Animated = True
+        Me.viewEnrollListbtn.AutoRoundedCorners = True
+        Me.viewEnrollListbtn.BorderRadius = 21
+        Me.viewEnrollListbtn.CheckedState.Parent = Me.viewEnrollListbtn
+        Me.viewEnrollListbtn.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.viewEnrollListbtn.CustomImages.Parent = Me.viewEnrollListbtn
+        Me.viewEnrollListbtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(126, Byte), Integer))
+        Me.viewEnrollListbtn.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.viewEnrollListbtn.ForeColor = System.Drawing.Color.White
+        Me.viewEnrollListbtn.HoverState.Parent = Me.viewEnrollListbtn
+        Me.viewEnrollListbtn.Image = Global.tracksmart_application.My.Resources.Resources.icons8_eye_48
+        Me.viewEnrollListbtn.Location = New System.Drawing.Point(295, 207)
+        Me.viewEnrollListbtn.Name = "viewEnrollListbtn"
+        Me.viewEnrollListbtn.ShadowDecoration.Parent = Me.viewEnrollListbtn
+        Me.viewEnrollListbtn.Size = New System.Drawing.Size(162, 45)
+        Me.viewEnrollListbtn.TabIndex = 8
+        Me.viewEnrollListbtn.Text = "View"
         '
         'Guna2ComboBox1
         '
@@ -149,43 +186,6 @@ Partial Class enrollListView
         Me.RectangleShape1.Location = New System.Drawing.Point(27, 58)
         Me.RectangleShape1.Name = "RectangleShape1"
         Me.RectangleShape1.Size = New System.Drawing.Size(429, 34)
-        '
-        'closeEnrollBtn
-        '
-        Me.closeEnrollBtn.CheckedState.Parent = Me.closeEnrollBtn
-        Me.closeEnrollBtn.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.closeEnrollBtn.CustomImages.Parent = Me.closeEnrollBtn
-        Me.closeEnrollBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.closeEnrollBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.closeEnrollBtn.ForeColor = System.Drawing.Color.White
-        Me.closeEnrollBtn.HoverState.Parent = Me.closeEnrollBtn
-        Me.closeEnrollBtn.Image = Global.attendance_application.My.Resources.Resources.icons8_close_30
-        Me.closeEnrollBtn.Location = New System.Drawing.Point(435, 3)
-        Me.closeEnrollBtn.Name = "closeEnrollBtn"
-        Me.closeEnrollBtn.ShadowDecoration.Parent = Me.closeEnrollBtn
-        Me.closeEnrollBtn.Size = New System.Drawing.Size(40, 31)
-        Me.closeEnrollBtn.TabIndex = 12
-        '
-        'viewEnrollListbtn
-        '
-        Me.viewEnrollListbtn.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.viewEnrollListbtn.Animated = True
-        Me.viewEnrollListbtn.AutoRoundedCorners = True
-        Me.viewEnrollListbtn.BorderRadius = 21
-        Me.viewEnrollListbtn.CheckedState.Parent = Me.viewEnrollListbtn
-        Me.viewEnrollListbtn.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.viewEnrollListbtn.CustomImages.Parent = Me.viewEnrollListbtn
-        Me.viewEnrollListbtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(126, Byte), Integer))
-        Me.viewEnrollListbtn.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.viewEnrollListbtn.ForeColor = System.Drawing.Color.White
-        Me.viewEnrollListbtn.HoverState.Parent = Me.viewEnrollListbtn
-        Me.viewEnrollListbtn.Image = Global.attendance_application.My.Resources.Resources.icons8_eye_48
-        Me.viewEnrollListbtn.Location = New System.Drawing.Point(295, 207)
-        Me.viewEnrollListbtn.Name = "viewEnrollListbtn"
-        Me.viewEnrollListbtn.ShadowDecoration.Parent = Me.viewEnrollListbtn
-        Me.viewEnrollListbtn.Size = New System.Drawing.Size(162, 45)
-        Me.viewEnrollListbtn.TabIndex = 8
-        Me.viewEnrollListbtn.Text = "View"
         '
         'enrollListView
         '
